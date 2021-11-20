@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{EC19AB1F-66E5-4921-A176-9C589A22272F}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\Traballo\Videoxogos\Invictvs 2 Pro Tools\AudioAssets\"/>
+				<Property Name="Event Action List\{427B2EDD-33A2-418D-9ECE-E8DE0D1EC107}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{57815426-FB81-4345-B2F1-11A86B31DCE9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{75AF54B3-FBAA-48E6-82AB-B60092840F70}\x64_Expand States" Type="string" Value=""/>
@@ -52,7 +53,7 @@
 				<Property Name="Music Transition List\{FE565E89-98F8-4392-8310-DC226A8D87CF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
 				<Property Name="ProjectExplorer\FirstVisible_5_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_7_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -60,7 +61,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_11_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_12_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_13_1" Type="string" Value="4QXCpJcdGkOW9MTPycKiQIleVv74mJJDgxDcImqNh8+y7epNfp6eRrcU89ZNjgKK"/>
-				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_14_1" Type="string" Value="mPQWuyrUSUmFj7uYyriqPQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_15_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_16_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
@@ -71,12 +72,12 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="rNxVH0+p7EiDz91ThFO4Fw=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="TRVc44XlDEKD3Zh8ag9BkazcVR9PqexIg8/dU4RTuBc="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="QMpf+pF79UW/JzuFKOLX1A=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value="RKqv8Nits0SRiKfThcRDRA=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value="rr2NQ91dZUmD6gCNyuWa791jAyJxWw1LkK3Nx+0a0fg="/>
 				<Property Name="ProjectExplorer\x64_Expanded_7_1" Type="string" Value="tVcNCJqcSkyxwetu5m/P4Q=="/>
-				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_8_1" Type="string" Value="NQVqsuU4GU6ssBrG+P73UQ=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_9_1" Type="string" Value=""/>
 				<Property Name="SoundBank Manager\x64_Expand States" Type="string" Value="tVcNCJqcSkyxwetu5m/P4Q=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>

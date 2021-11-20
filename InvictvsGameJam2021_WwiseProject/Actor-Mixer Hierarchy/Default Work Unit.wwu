@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="ChickenJump" ID="{59C384E9-3F9B-4CF1-87D9-EEBDBAD56EB6}" ShortID="778314844">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
