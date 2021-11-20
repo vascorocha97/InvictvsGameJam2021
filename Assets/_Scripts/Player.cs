@@ -19,6 +19,9 @@ public class Player : PhysicsObject
     [Header("Collectables")]
     public int foodCollected = 0;
 
+    [Header("Animation Settings")]
+    [SerializeField] private Animator animator;
+
 
     //Singleton Instantiation
     private static Player instance;
@@ -30,6 +33,7 @@ public class Player : PhysicsObject
             return instance;
         }
     }
+
 
     void Start()
     {
@@ -46,6 +50,9 @@ public class Player : PhysicsObject
 
         //Jump
         HandleJumpInput();
+
+        //Animation
+        HandleWalkAnim();
     }
 
 
@@ -85,7 +92,8 @@ public class Player : PhysicsObject
             velocity.y = jumpSpeed;
             //Apply velocity as if the ground is flat
             groundNormal = new Vector2(0f, 1f);
-            AkSoundEngine.PostEvent("cckJump", this.gameObject);
+            //PlayJumpSound();
+            TriggerJumpAnim();
         }
     }
 
@@ -136,5 +144,28 @@ public class Player : PhysicsObject
                 break;
         }
             
+    }
+
+    //Animations
+    private void HandleWalkAnim() 
+    {
+        if (grounded && movementInput != 0)
+        {
+            animator.SetBool("isWalking", true);
+        }
+        else 
+        {
+            animator.SetBool("isWalking", false);
+        }
+    }
+    private void TriggerJumpAnim() 
+    {
+        animator.SetTrigger("Jump");
+    }
+
+    //Audio
+    private void PlayJumpSound() 
+    {
+        AkSoundEngine.PostEvent("cckJump", this.gameObject);
     }
 }
