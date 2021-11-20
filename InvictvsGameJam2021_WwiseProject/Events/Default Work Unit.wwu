@@ -51,6 +51,17 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="cckTimeTravel" ID="{861FFD0B-32AD-4D9F-962E-B292C0246CA1}"/>
+				<Event Name="dragonStep" ID="{DBF3BB2E-462F-4CC3-B3A0-5DF9739000E3}">
+					<ChildrenList>
+						<Action Name="" ID="{AB8D87F6-20E8-4AB2-838B-B1454F127091}" ShortID="725042714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dragonSteps" ID="{8C0E5849-3317-4D14-97C1-2F8F6FCA4F5F}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
