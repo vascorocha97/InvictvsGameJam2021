@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="195411165">
+		<SoundBank Id="782826392" Language="SFX" Hash="2826565571">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -116,35 +116,35 @@
 					<IncludedMemoryFiles>
 						<File Id="75083737" Language="SFX">
 							<ShortName>Steps\dragonStep 04.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 04_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 04_BFB259A6.wem</Path>
 						</File>
 						<File Id="201722822" Language="SFX">
 							<ShortName>Steps\dragonStep 01.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 01_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 01_BFB259A6.wem</Path>
 						</File>
 						<File Id="344730394" Language="SFX">
 							<ShortName>Steps\dragonStep 06.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 06_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 06_BFB259A6.wem</Path>
 						</File>
 						<File Id="405469489" Language="SFX">
 							<ShortName>Steps\dragonStep 02.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 02_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 02_BFB259A6.wem</Path>
 						</File>
 						<File Id="665701616" Language="SFX">
 							<ShortName>Steps\dragonStep 07.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 07_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 07_BFB259A6.wem</Path>
 						</File>
 						<File Id="681600882" Language="SFX">
 							<ShortName>Steps\dragonStep 05.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 05_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 05_BFB259A6.wem</Path>
 						</File>
 						<File Id="720217139" Language="SFX">
 							<ShortName>Steps\dragonStep 03.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 03_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 03_BFB259A6.wem</Path>
 						</File>
 						<File Id="1022848384" Language="SFX">
 							<ShortName>Steps\dragonStep 08.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 08_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 08_BFB259A6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
