@@ -64,7 +64,7 @@ public class Player : PhysicsObject
         {
             movementInput = 1;
         }
-        else if (movementInput < 0) 
+        else if (movementInput < 0)
         {
             movementInput = -1;
         }
@@ -88,7 +88,7 @@ public class Player : PhysicsObject
     //Jump
     private void HandleJumpInput()
     {
-        if (Input.GetButtonDown("Jump")) 
+        if (Input.GetButtonDown("Jump"))
         {
             Jump();
         }
@@ -100,13 +100,13 @@ public class Player : PhysicsObject
             velocity.y = jumpSpeed;
             //Apply velocity as if the ground is flat
             groundNormal = new Vector2(0f, 1f);
-            //PlayJumpSound();
+            PlayJumpSound();
             TriggerJumpAnim();
         }
     }
 
     //Inventory and Weight
-    public void IncreaseWeight() 
+    public void IncreaseWeight()
     {
         if (weight < maxWeight)
         {
@@ -122,13 +122,13 @@ public class Player : PhysicsObject
             UpdatePlayerSprite();
         }
     }
-    public float GetWeight() 
+    public float GetWeight()
     {
         return this.weight;
     }
-    private void UpdatePlayerSprite() 
+    private void UpdatePlayerSprite()
     {
-        switch(weight) 
+        switch (weight)
         {
             case 0:
                 //
@@ -151,28 +151,28 @@ public class Player : PhysicsObject
             default:
                 break;
         }
-            
+
     }
 
     //Animations
-    private void HandleWalkAnim() 
+    private void HandleWalkAnim()
     {
         if (grounded && movementInput != 0)
         {
             animator.SetBool("isWalking", true);
         }
-        else 
+        else
         {
             animator.SetBool("isWalking", false);
         }
     }
-    private void TriggerJumpAnim() 
+    private void TriggerJumpAnim()
     {
         animator.SetTrigger("Jump");
     }
 
     //Audio
-    private void PlayJumpSound() 
+    private void PlayJumpSound()
     {
         AkSoundEngine.PostEvent("cckJump", this.gameObject);
     }
