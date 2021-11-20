@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID CCKJUMP = 3003443782U;
         static const AkUniqueID CCKSTEP = 2634211848U;
         static const AkUniqueID CCKTIMETRAVEL = 1000239925U;
+        static const AkUniqueID DRAGONFIRE = 3094022532U;
         static const AkUniqueID DRAGONSTEP = 3080755390U;
         static const AkUniqueID LEVELSTART = 3372421815U;
         static const AkUniqueID LEVELSTOP = 1638678045U;
@@ -36,6 +37,11 @@ namespace AK
         } // namespace TIMEFLOW
 
     } // namespace STATES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID TIMEOFDAY = 3729505769U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

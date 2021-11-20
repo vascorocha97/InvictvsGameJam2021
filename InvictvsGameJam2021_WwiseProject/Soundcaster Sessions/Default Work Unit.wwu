@@ -26,7 +26,12 @@
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
-					<RTPCValueList ShowAll="true"/>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="timeOfDay" ID="{47CC727C-2D79-4368-B89E-130536F91EC2}"/>
+							<Value>1.09531191662871E-317</Value>
+						</RTPCValue>
+					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
 					</CurrentStateList>

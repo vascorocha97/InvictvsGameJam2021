@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2634211848	cckStep			\Default Work Unit\cckStep	
 	3003443782	cckJump			\Default Work Unit\cckJump	
 	3080755390	dragonStep			\Default Work Unit\dragonStep	
+	3094022532	dragonFire			\Default Work Unit\dragonFire	
 	3372421815	levelStart			\Default Work Unit\levelStart	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -45,4 +46,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	992613679	cckStep_10	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_10		4330
 	1022848384	dragonStep 08	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\dragonStep 08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 08		25990
 	1049453860	cckStep_03	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_03		5968
+	1055277156	dragonFire	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\dragonFire_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonFire		319944
 

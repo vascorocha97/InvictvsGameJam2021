@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3695006048">
+		<SoundBank Id="782826392" Language="SFX" Hash="3542398222">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -85,6 +85,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.527767" DurationMax="1.957381">
+					<IncludedMemoryFiles>
+						<File Id="1055277156" Language="SFX">
+							<ShortName>dragonFire.wav</ShortName>
+							<Path>SFX/dragonFire_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3080755390" Name="dragonStep" ObjectPath="\Events\Default Work Unit\dragonStep" DurationType="OneShot" DurationMin="0.293946" DurationMax="0.317438">
 					<IncludedMemoryFiles>
 						<File Id="75083737" Language="SFX">
@@ -158,7 +166,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3619596609">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1947532366">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
