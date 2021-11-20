@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID LEVELSTART = 3372421815U;
         static const AkUniqueID LEVELSTOP = 1638678045U;
         static const AkUniqueID SLOTMACHINEREVERSE = 205509026U;
+        static const AkUniqueID SLOTMACHINESTOP = 3763804504U;
     } // namespace EVENTS
 
     namespace STATES

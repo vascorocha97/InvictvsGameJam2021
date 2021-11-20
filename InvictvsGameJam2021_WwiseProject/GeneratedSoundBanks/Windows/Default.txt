@@ -7,6 +7,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3080755390	dragonStep			\Default Work Unit\dragonStep	
 	3094022532	dragonFire			\Default Work Unit\dragonFire	
 	3372421815	levelStart			\Default Work Unit\levelStart	
+	3763804504	slotMachineStop			\Default Work Unit\slotMachineStop	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	422996926	timeFlow			\Default Work Unit\timeFlow	
