@@ -9,9 +9,15 @@
 							<ObjectRef Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}"/>
 							<Position X="0" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="cckSteps" ID="{E35C154D-E585-420C-83DD-987C6A0F4191}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+							<Position X="1" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

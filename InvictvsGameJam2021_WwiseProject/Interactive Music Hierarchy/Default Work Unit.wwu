@@ -373,6 +373,27 @@
 						</MusicTransition>
 					</TransitionList>
 					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Level1Fwd" ID="{FE565E89-98F8-4392-8310-DC226A8D87CF}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Level1Fwd" ID="{FE565E89-98F8-4392-8310-DC226A8D87CF}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
