@@ -1268,23 +1268,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1163238524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 160173980379800711, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
-  m_PrefabInstance: {fileID: 1344603514}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1163238525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1163238524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e41c89567db9dc4191e8766aa774b3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1251625471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,10 +1347,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 160173980379800710, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
-      propertyPath: data.WwiseObjectReference
-      value: 
-      objectReference: {fileID: 11400000, guid: ec17529ccc7f2d54aa15143274b000aa, type: 2}
     - target: {fileID: 160173980379800711, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
       propertyPath: m_Name
       value: Sound Manager (1)
