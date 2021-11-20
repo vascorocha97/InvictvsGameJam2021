@@ -12,13 +12,21 @@ public class TimeBody : MonoBehaviour
 
     private robot robot;
 
+    private Animation animation;
+    private Animator animator;
+
+    private AnimatorClipInfo[] CurrentClipInfo;
+
+    private string word;
+
 
     void Start()
     {
         _state = new List<ObjState>();
         // May not work if we have more than one instance!
         robot = gameObject.GetComponent<robot>();
-
+        animation = gameObject.GetComponent<Animation>();
+        animator = gameObject.GetComponent<Animator>();
 
 
     }
@@ -47,6 +55,7 @@ public class TimeBody : MonoBehaviour
     public void StopRewind()
     {
         _isRewinding = false;
+        animator.SetFloat("Direction", 1);
 
     }
 
@@ -65,14 +74,23 @@ public class TimeBody : MonoBehaviour
     void Record()
     {
         // may require kinematic replay!!
-        Debug.Log(transform.position);
+        // Debug.Log(animation.sprite);
+        // animation.enabled = false;
 
         _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex));
+
+        //Fetch the current Animation clip information for the base layer
+        CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
+        Debug.Log(CurrentClipInfo[0].clip.name.ToString());
+        // Debug.Log(animator.GetCurrentAnimatorStateInfo(0).ToString());
+        //Access the current length of the clip
+        //  m_CurrentClipLength = m_CurrentClipInfo[0].clip.length;
 
     }
 
     void Rewind()
     {
+        //animator.StartPlayback();
         if (_state.Count > 0)
         {
             // transform.position = _positions[0];
@@ -81,6 +99,11 @@ public class TimeBody : MonoBehaviour
             transform.position = objState.position;
             transform.rotation = objState.rotation;
             robot.checkPointIndex = objState.checkPointIndex;
+            // animation.Rewind();
+            animator.SetFloat("Direction", -1);
+            animator.Play("BlueBird", -1, float.NegativeInfinity);
+
+
             _state.RemoveAt(0);
 
         }
