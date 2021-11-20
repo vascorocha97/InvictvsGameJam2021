@@ -88,7 +88,7 @@ public class Player : PhysicsObject
     public void Freeze(bool isFrozen) 
     {
         canMove = isFrozen;
-    }
+    }    
 
     //Jump
     private void HandleJumpInput()
@@ -180,5 +180,9 @@ public class Player : PhysicsObject
     private void PlayJumpSound()
     {
         AkSoundEngine.PostEvent("cckJump", this.gameObject);
+    }
+    public void PlayFootsteps()
+    {
+        AkSoundEngine.PostEvent("cckStep", this.gameObject);
     }
 }
