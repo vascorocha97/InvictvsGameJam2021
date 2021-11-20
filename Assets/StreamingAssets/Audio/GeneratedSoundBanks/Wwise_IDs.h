@@ -11,6 +11,15 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID CCKJUMP = 3003443782U;
+        static const AkUniqueID CCKSTEP = 2634211848U;
+        static const AkUniqueID CCKTIMETRAVEL = 1000239925U;
+        static const AkUniqueID LEVELSTART = 3372421815U;
+        static const AkUniqueID LEVELSTOP = 1638678045U;
+    } // namespace EVENTS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
