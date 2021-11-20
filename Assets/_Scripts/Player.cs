@@ -6,9 +6,18 @@ public class Player : PhysicsObject
 {
     private float movementInput;
 
+    [Header("Weight Settings")]
+    [SerializeField] private float weight = 0f;
+    public float maxWeight = 50f;
+    public float minWeight = 0f;
+    [SerializeField] private Sprite[] spriteList;
+
     [Header("Movement Settings")]
     [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private float moveSpeed = 3f;
+
+    [Header("Collectables")]
+    public int foodCollected = 0;
 
 
     //Singleton Instantiation
@@ -44,7 +53,6 @@ public class Player : PhysicsObject
     private void ReadMoveInput()
     {
         movementInput = Input.GetAxisRaw("Horizontal");
-        Debug.Log(movementInput);
     }
     private void Move()
     {
@@ -77,6 +85,56 @@ public class Player : PhysicsObject
             velocity.y = jumpSpeed;
             //Apply velocity as if the ground is flat
             groundNormal = new Vector2(0f, 1f);
+            AkSoundEngine.PostEvent("cckJump", this.gameObject);
         }
+    }
+
+    //Inventory and Weight
+    public void IncreaseWeight() 
+    {
+        if (weight < maxWeight)
+        {
+            weight += 10;
+            UpdatePlayerSprite();
+        }
+    }
+    public void DecreaseWeight()
+    {
+        if (weight > minWeight)
+        {
+            weight -= 10;
+            UpdatePlayerSprite();
+        }
+    }
+    public float GetWeight() 
+    {
+        return this.weight;
+    }
+    private void UpdatePlayerSprite() 
+    {
+        switch(weight) 
+        {
+            case 0:
+                //
+                break;
+            case 10:
+                //
+                break;
+            case 20:
+                //
+                break;
+            case 30:
+                //
+                break;
+            case 40:
+                //
+                break;
+            case 50:
+                //
+                break;
+            default:
+                break;
+        }
+            
     }
 }
