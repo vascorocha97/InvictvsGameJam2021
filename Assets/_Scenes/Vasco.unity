@@ -746,7 +746,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1163238525, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 160173980379800710, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
       propertyPath: data.WwiseObjectReference
