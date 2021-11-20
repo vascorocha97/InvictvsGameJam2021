@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3056082208">
+		<SoundBank Id="782826392" Language="SFX" Hash="2381937603">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -26,9 +26,43 @@
 				</Event>
 				<Event Id="2634211848" Name="cckStep" ObjectPath="\Events\Default Work Unit\cckStep" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite"/>
+				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="705704820" Language="SFX">
+							<ShortName>Lvl1Fwd.wav</ShortName>
+							<Path>SFX/Lvl1Fwd_D79FB2B7.wem</Path>
+						</File>
+						<File Id="845321622" Language="SFX">
+							<ShortName>Music_Intro.wav</ShortName>
+							<Path>SFX/Music_Intro_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
+							<Media>
+								<File Id="705704820"/>
+								<File Id="845321622"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{34E7249B-2B55-4B1C-B987-E29737BBD945}">
+							<Media>
+								<File Id="705704820"/>
+								<File Id="845321622"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="1638678045" Name="levelStop" ObjectPath="\Events\Default Work Unit\levelStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="422996926" Name="timeFlow" ObjectPath="\States\Default Work Unit\timeFlow" GUID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\timeFlow\None" GUID="{66F43C57-9969-4DEA-8601-063ECA840545}"/>
+						<State Id="1058227519" Name="forwards" ObjectPath="\States\Default Work Unit\timeFlow\forwards" GUID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+						<State Id="3876169137" Name="backwards" ObjectPath="\States\Default Work Unit\timeFlow\backwards" GUID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="3619596609">
 			<ObjectPath>Init</ObjectPath>
