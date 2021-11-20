@@ -15,6 +15,7 @@ public class Player : PhysicsObject
     [Header("Movement Settings")]
     [SerializeField] private float jumpSpeed = 10f;
     [SerializeField] private float moveSpeed = 3f;
+    [SerializeField] private bool canMove = true;
 
     [Header("Collectables")]
     public int foodCollected = 0;
@@ -83,6 +84,10 @@ public class Player : PhysicsObject
         {
             transform.localScale = new Vector2(1, 1);
         }
+    }
+    public void Freeze(bool isFrozen) 
+    {
+        canMove = isFrozen;
     }
 
     //Jump
