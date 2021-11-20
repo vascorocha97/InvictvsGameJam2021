@@ -1,84 +1,12 @@
 fileFormatVersion: 2
-guid: aea9d75bfe40e2e488859e9bf8be31a1
+guid: 28fc9de649590bf45a1290291a4206d9
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -6845274772316394061
-    second: dragao-walk_0
-  - first:
-      213: -5798622817635169779
-    second: dragao-walk_1
-  - first:
-      213: -8073529464746702904
-    second: dragao-walk_2
-  - first:
-      213: 8881103447556690596
-    second: dragao-walk_3
-  - first:
-      213: 3172289374942113959
-    second: dragao-walk_6
-  - first:
-      213: -156820131099268008
-    second: dragao-walk_7
-  - first:
-      213: 1903585002262975459
-    second: dragao-walk_8
-  - first:
-      213: -5046283986172599961
-    second: dragao-walk_9
-  - first:
-      213: 2763275076077499597
-    second: dragao-walk_4
-  - first:
-      213: -6691602031360436908
-    second: dragao-walk_5
-  - first:
-      213: 5293968638464712860
-    second: dragao-walk_10
-  - first:
-      213: 7421444537201351444
-    second: dragao-walk_11
-  - first:
-      213: 6209794939080523977
-    second: dragao-walk_12
-  - first:
-      213: -4934471004348972895
-    second: dragao-walk_13
-  - first:
-      213: 395682028723174099
-    second: dragao-walk_14
-  - first:
-      213: -1688874554868870454
-    second: dragao-walk_15
-  - first:
-      213: 1326618121127936524
-    second: dragao-walk_16
-  - first:
-      213: 1912669087388477277
-    second: dragao-walk_17
-  - first:
-      213: 7209756074719656711
-    second: dragao-walk_18
-  - first:
-      213: 7990430549151451853
-    second: dragao-walk_19
-  - first:
-      213: -6698153914714235263
-    second: dragao-walk_20
-  - first:
-      213: -477323109288430796
-    second: dragao-walk_21
-  - first:
-      213: 5540734705061490166
-    second: dragao-walk_22
-  - first:
-      213: 55867192573334762
-    second: dragao-walk_23
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -104,16 +32,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -122,9 +50,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -137,34 +65,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -173,347 +77,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: dragao-walk_0
-      rect:
-        serializedVersion: 2
-        x: 6
-        y: 0
-        width: 230
-        height: 246
-      alignment: 9
-      pivot: {x: 0.44532973, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3bd6326ccd2b001a0800000000000000
-      internalID: -6845274772316394061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_1
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 0
-        width: 236
-        height: 246
-      alignment: 9
-      pivot: {x: 0.44032067, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0a81601547278fa0800000000000000
-      internalID: -5798622817635169779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_2
-      rect:
-        serializedVersion: 2
-        x: 550
-        y: 0
-        width: 252
-        height: 246
-      alignment: 9
-      pivot: {x: 0.39372122, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c78f1a2abf05ff80800000000000000
-      internalID: -8073529464746702904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_3
-      rect:
-        serializedVersion: 2
-        x: 823
-        y: 0
-        width: 269
-        height: 246
-      alignment: 9
-      pivot: {x: 0.38049716, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a21d1d0884004b70800000000000000
-      internalID: 8881103447556690596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_6
-      rect:
-        serializedVersion: 2
-        x: 1398
-        y: 0
-        width: 246
-        height: 246
-      alignment: 9
-      pivot: {x: 0.40061507, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a0bb26016c360c20800000000000000
-      internalID: 3172289374942113959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_5
-      rect:
-        serializedVersion: 2
-        x: 1114
-        y: 0
-        width: 254
-        height: 246
-      alignment: 9
-      pivot: {x: 0.39372098, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4559a76f767a223a0800000000000000
-      internalID: -6691602031360436908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_7
-      rect:
-        serializedVersion: 2
-        x: 1711
-        y: 0
-        width: 190
-        height: 246
-      alignment: 9
-      pivot: {x: 0.51853156, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85ca230fbecd2ddf0800000000000000
-      internalID: -156820131099268008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_8
-      rect:
-        serializedVersion: 2
-        x: 1993
-        y: 0
-        width: 184
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5510294, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e355a35974ea6a10800000000000000
-      internalID: 1903585002262975459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_9
-      rect:
-        serializedVersion: 2
-        x: 2260
-        y: 0
-        width: 190
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5123548, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 761a070737ff7f9b0800000000000000
-      internalID: -5046283986172599961
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_10
-      rect:
-        serializedVersion: 2
-        x: 2529
-        y: 0
-        width: 205
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c906fb39d64f77940800000000000000
-      internalID: 5293968638464712860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_11
-      rect:
-        serializedVersion: 2
-        x: 2802
-        y: 0
-        width: 179
-        height: 246
-      alignment: 9
-      pivot: {x: 0.53934073, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b56207c744ef660800000000000000
-      internalID: 7421444537201351444
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_12
-      rect:
-        serializedVersion: 2
-        x: 3075
-        y: 0
-        width: 184
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5510294, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c0c9ef989f9d2650800000000000000
-      internalID: 6209794939080523977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_13
-      rect:
-        serializedVersion: 2
-        x: 3367
-        y: 0
-        width: 180
-        height: 246
-      alignment: 9
-      pivot: {x: 0.55868465, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a08057f3cc358bb0800000000000000
-      internalID: -4934471004348972895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_14
-      rect:
-        serializedVersion: 2
-        x: 3650
-        y: 0
-        width: 206
-        height: 246
-      alignment: 9
-      pivot: {x: 0.4772096, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3dafc0e65bebd7500800000000000000
-      internalID: 395682028723174099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_15
-      rect:
-        serializedVersion: 2
-        x: 3963
-        y: 0
-        width: 186
-        height: 246
-      alignment: 9
-      pivot: {x: 0.5189301, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac258d65a89ef88e0800000000000000
-      internalID: -1688874554868870454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk_16
-      rect:
-        serializedVersion: 2
-        x: 4246
-        y: 0
-        width: 183
-        height: 246
-      alignment: 9
-      pivot: {x: 0.55772126, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c024d660728196210800000000000000
-      internalID: 1326618121127936524
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5f557bf2171672742b5b8189b4938e35
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
