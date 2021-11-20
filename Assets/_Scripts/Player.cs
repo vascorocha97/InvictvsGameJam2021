@@ -60,6 +60,14 @@ public class Player : PhysicsObject
     private void ReadMoveInput()
     {
         movementInput = Input.GetAxisRaw("Horizontal");
+        if (movementInput > 0)
+        {
+            movementInput = 1;
+        }
+        else if (movementInput < 0) 
+        {
+            movementInput = -1;
+        }
     }
     private void Move()
     {
