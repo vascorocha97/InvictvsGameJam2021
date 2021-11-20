@@ -6,7 +6,17 @@
 				<Event Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}"/>
 				<Event Name="levelStop" ID="{8DD2DE8D-A9E3-4116-9909-CE7FBD5C7615}"/>
 				<Event Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}"/>
-				<Event Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}"/>
+				<Event Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}">
+					<ChildrenList>
+						<Action Name="" ID="{5B9D60F1-413E-4844-B06F-9C7CB1642400}" ShortID="58952918">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ChickenJump" ID="{59C384E9-3F9B-4CF1-87D9-EEBDBAD56EB6}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="cckTimeTravel" ID="{861FFD0B-32AD-4D9F-962E-B292C0246CA1}"/>
 			</ChildrenList>
 		</WorkUnit>
