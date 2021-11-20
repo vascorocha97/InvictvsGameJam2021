@@ -34,12 +34,12 @@ public class TimeBody : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetButtonDown("Jump")))
+        if ((Input.GetButtonDown("Fire1")))
         {
             StartRewind();
         }
 
-        if (Input.GetButtonUp("Jump"))
+        if (Input.GetButtonUp("Fire1"))
         {
             StopRewind();
         }
@@ -100,8 +100,8 @@ public class TimeBody : MonoBehaviour
             transform.rotation = objState.rotation;
             robot.checkPointIndex = objState.checkPointIndex;
             // animation.Rewind();
-            animator.SetFloat("Direction", -1);
-            animator.Play("BlueBird", -1, float.NegativeInfinity);
+            // animator.SetFloat("Direction", -1);
+            // animator.Play("BlueBird", -1, float.NegativeInfinity);
 
 
             _state.RemoveAt(0);

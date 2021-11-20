@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef39d12e8eb7744f580b1bfca452cc3e, type: 3}
+  m_Name: 438DBDAE-5DDD-4965-83EA-008DCAE59AEF
+  m_EditorClassIdentifier: 
+  objectName: timeFlow
+  id: 422996926
+  guid: 438DBDAE-5DDD-4965-83EA-008DCAE59AEF
