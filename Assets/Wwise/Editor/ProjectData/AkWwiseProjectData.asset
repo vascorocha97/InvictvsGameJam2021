@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 40ca5ffa917bf545bf273b8528e2d7d4
     GuidInternal: 
-    m_lastTime: -8585641942002627335
+    m_lastTime: -8585641800414854658
     List:
     - name: cckJump
       guid: b354af75aafbe64882abb60092840f70
@@ -162,8 +162,8 @@ MonoBehaviour:
         guid: 42c2196839b0e4428e2bc1d1debc53dc
       Path: Events\Default Work Unit\levelStart
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: levelStop
       guid: 8dded28de3a916419909ce7fbd5c7615
       id: 1638678045
@@ -207,8 +207,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: dd630322715b0d4b90adcdc7ed1ad1f8
     GuidInternal: 
-    m_lastTime: -8585642478250825995
-    List: []
+    m_lastTime: -8585641800411877706
+    List:
+    - name: timeFlow
+      guid: aebd8d43dd5d654983ea008dcae59aef
+      id: 422996926
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: dd630322715b0d4b90adcdc7ed1ad1f8
+      - ElementName: timeFlow
+        ObjectType: 9
+        guid: aebd8d43dd5d654983ea008dcae59aef
+      Path: States\Default Work Unit\timeFlow
+      values:
+      - name: backwards
+        guid: eeda1cbf116ed544b39be57ad4eeec5a
+        id: 3876169137
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd630322715b0d4b90adcdc7ed1ad1f8
+        - ElementName: timeFlow
+          ObjectType: 9
+          guid: aebd8d43dd5d654983ea008dcae59aef
+        - ElementName: backwards
+          ObjectType: 8
+          guid: eeda1cbf116ed544b39be57ad4eeec5a
+      - name: forwards
+        guid: 9b24e734552b1c4bb987e29737bbd945
+        id: 1058227519
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd630322715b0d4b90adcdc7ed1ad1f8
+        - ElementName: timeFlow
+          ObjectType: 9
+          guid: aebd8d43dd5d654983ea008dcae59aef
+        - ElementName: forwards
+          ObjectType: 8
+          guid: 9b24e734552b1c4bb987e29737bbd945
+      - name: None
+        guid: 573cf4666999ea4d8601063eca840545
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: dd630322715b0d4b90adcdc7ed1ad1f8
+        - ElementName: timeFlow
+          ObjectType: 9
+          guid: aebd8d43dd5d654983ea008dcae59aef
+        - ElementName: None
+          ObjectType: 8
+          guid: 573cf4666999ea4d8601063eca840545
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
