@@ -15,11 +15,12 @@ namespace AK
     {
         static const AkUniqueID CCKJUMP = 3003443782U;
         static const AkUniqueID CCKSTEP = 2634211848U;
-        static const AkUniqueID CCKTIMETRAVEL = 1000239925U;
         static const AkUniqueID DRAGONFIRE = 3094022532U;
+        static const AkUniqueID DRAGONSTABSCHICKEN = 2914690528U;
         static const AkUniqueID DRAGONSTEP = 3080755390U;
         static const AkUniqueID LEVELSTART = 3372421815U;
         static const AkUniqueID LEVELSTOP = 1638678045U;
+        static const AkUniqueID SLOTMACHINEREVERSE = 205509026U;
     } // namespace EVENTS
 
     namespace STATES
@@ -52,6 +53,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES
