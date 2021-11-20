@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="1844897155">
+		<SoundBank Id="782826392" Language="SFX" Hash="2388376566">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -87,6 +87,10 @@
 				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="392266127" Language="SFX">
+							<ShortName>Lvl1Back.wav</ShortName>
+							<Path>SFX/Lvl1Back_D79FB2B7.wem</Path>
+						</File>
 						<File Id="705704820" Language="SFX">
 							<ShortName>Lvl1Fwd.wav</ShortName>
 							<Path>SFX/Lvl1Fwd_D79FB2B7.wem</Path>
@@ -99,12 +103,7 @@
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
 							<Media>
-								<File Id="705704820"/>
-								<File Id="845321622"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{34E7249B-2B55-4B1C-B987-E29737BBD945}">
-							<Media>
+								<File Id="392266127"/>
 								<File Id="705704820"/>
 								<File Id="845321622"/>
 							</Media>

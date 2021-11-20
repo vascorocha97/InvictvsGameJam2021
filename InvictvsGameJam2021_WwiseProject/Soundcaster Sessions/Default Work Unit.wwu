@@ -10,13 +10,17 @@
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="cckSteps" ID="{E35C154D-E585-420C-83DD-987C6A0F4191}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true"/>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+						<CurrentStateRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
