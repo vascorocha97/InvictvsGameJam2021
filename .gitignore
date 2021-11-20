@@ -59,6 +59,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Wise
-AkWwiseProjectData.asset
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset.meta
 
-
+Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset
