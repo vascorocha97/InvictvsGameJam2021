@@ -54,6 +54,27 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="3">
+														<StateGroupRef Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+														<CustomState Name="" ID="{DEB3EB8C-2DAA-425D-8083-2147CBBAC90A}" ShortID="533978401">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-400"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+														<CustomState Name="" ID="{20671B0B-327C-47F5-8C0C-14F27CF02457}" ShortID="170507898"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
 											<TransitionList>
 												<MusicTransition Name="Root" ID="{22BF0832-1F21-4D99-9F6D-509BD388A2BD}">
 													<PropertyList>
@@ -149,7 +170,96 @@
 												</ObjectList>
 											</ObjectLists>
 										</MusicTrack>
+										<MusicTrack Name="Lvl1BackLoop" ID="{C78861A5-FACB-4978-A288-5C8C43EB49FF}" ShortID="234774397">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Lvl1Back" ID="{3614493F-6769-4677-B6C1-A75ACD3C3870}">
+													<Language>SFX</Language>
+													<AudioFile>Lvl1Back.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="392266127"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo MusicSyncType="3">
+														<StateGroupRef Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+														<CustomState Name="" ID="{83E24604-345F-494C-AAEC-E0F8411A6525}" ShortID="433899035"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+														<CustomState Name="" ID="{B725B79F-3A29-40E8-9667-FF8374F6BFA8}" ShortID="444211296">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-400"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{EA372EFC-4E96-41E2-B91A-C09AB1C36556}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CBDDA742-4D94-4BF5-885C-BAB80304AB16}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Lvl1Back" ID="{9EFF5C19-6689-4B7C-807A-5A53F090F05C}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="54444.4583333333"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="277.777777777778"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Lvl1Back" ID="{3614493F-6769-4677-B6C1-A75ACD3C3870}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="3">
+												<StateGroupRef Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+												<CustomState Name="" ID="{2DFB7B6B-514F-4FC9-ABB3-23EA6FAC510E}" ShortID="583099701"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+												<CustomState Name="" ID="{2A7757D0-1C46-46D7-AE36-529777B806B9}" ShortID="1057867020"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists>
 										<ObjectList Name="Cues">
 											<Reference>
@@ -366,7 +476,21 @@
 							</PropertyList>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{C866CE69-F1FE-4D48-AAE6-11040C686648}">
-									<TransitionInfo/>
+									<PropertyList>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{100863DD-F514-4144-ACC6-EC2E018EF5FC}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
@@ -391,6 +515,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Level1Fwd" ID="{FE565E89-98F8-4392-8310-DC226A8D87CF}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

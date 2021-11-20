@@ -13,6 +13,10 @@ State	ID	Name	State Group			Notes
 	1058227519	forwards	timeFlow			
 	3876169137	backwards	timeFlow			
 
+Custom State	ID	Name	State Group	Owner		Notes
+	444211296	forwards	timeFlow	\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1BackLoop		
+	533978401	backwards	timeFlow	\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1FwdLoop		
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	10546518	ChickenJump	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\ChickenJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenJump		31272
 	15054362	cckStep_08	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_08		4184
@@ -22,6 +26,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	275879424	cckStep_09	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_09		4888
 	364892973	cckStep_07	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_07		4704
 	367814964	cckStep_14	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_14		4352
+	392266127	Lvl1BackLoop	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Lvl1Back_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1BackLoop		10453400
 	488003073	cckStep_01	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_01		6108
 	515034065	cckStep_13	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_13		16704
 	569828731	cckStep_05	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_05		12414
