@@ -3,8 +3,31 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}"/>
-				<Event Name="levelStop" ID="{8DD2DE8D-A9E3-4116-9909-CE7FBD5C7615}"/>
+				<Event Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}">
+					<ChildrenList>
+						<Action Name="" ID="{D9E53347-F795-40DA-9650-3D0D350B186E}" ShortID="586049488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level1" ID="{A4C205E1-1D97-431A-96F4-C4CFC9C2A240}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="levelStop" ID="{8DD2DE8D-A9E3-4116-9909-CE7FBD5C7615}">
+					<ChildrenList>
+						<Action Name="" ID="{9645800F-A866-44A2-9074-2B741A8115FF}" ShortID="927076959">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Level1" ID="{A4C205E1-1D97-431A-96F4-C4CFC9C2A240}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}"/>
 				<Event Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}">
 					<ChildrenList>

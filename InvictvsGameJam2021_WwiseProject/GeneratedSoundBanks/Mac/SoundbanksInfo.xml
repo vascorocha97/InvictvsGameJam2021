@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="2996000511">
+		<SoundBank Id="782826392" Language="SFX" Hash="3056082208">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -26,11 +26,11 @@
 				</Event>
 				<Event Id="2634211848" Name="cckStep" ObjectPath="\Events\Default Work Unit\cckStep" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite"/>
 				<Event Id="1638678045" Name="levelStop" ObjectPath="\Events\Default Work Unit\levelStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2620579607">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

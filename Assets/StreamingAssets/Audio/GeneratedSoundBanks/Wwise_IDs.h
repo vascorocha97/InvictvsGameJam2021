@@ -20,6 +20,22 @@ namespace AK
         static const AkUniqueID LEVELSTOP = 1638678045U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace TIMEFLOW
+        {
+            static const AkUniqueID GROUP = 422996926U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BACKWARDS = 3876169137U;
+                static const AkUniqueID FORWARDS = 1058227519U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace TIMEFLOW
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

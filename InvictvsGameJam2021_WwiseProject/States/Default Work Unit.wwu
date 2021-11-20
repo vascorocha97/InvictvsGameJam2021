@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{220363DD-5B71-4B0D-90AD-CDC7ED1AD1F8}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{220363DD-5B71-4B0D-90AD-CDC7ED1AD1F8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{220363DD-5B71-4B0D-90AD-CDC7ED1AD1F8}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="timeFlow" ID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
+					<ChildrenList>
+						<State Name="None" ID="{66F43C57-9969-4DEA-8601-063ECA840545}"/>
+						<State Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
+						<State Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
