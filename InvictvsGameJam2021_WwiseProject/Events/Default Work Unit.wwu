@@ -28,7 +28,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}"/>
+				<Event Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}">
+					<ChildrenList>
+						<Action Name="" ID="{9A6D157F-D12C-4211-8E82-A0694A209A3D}" ShortID="748050745">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cckSteps" ID="{E35C154D-E585-420C-83DD-987C6A0F4191}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 				<Event Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}">
 					<ChildrenList>
 						<Action Name="" ID="{5B9D60F1-413E-4844-B06F-9C7CB1642400}" ShortID="58952918">

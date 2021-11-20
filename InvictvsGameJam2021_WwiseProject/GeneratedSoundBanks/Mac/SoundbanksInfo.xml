@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="2381937603">
+		<SoundBank Id="782826392" Language="SFX" Hash="1844897155">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -24,7 +24,66 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2634211848" Name="cckStep" ObjectPath="\Events\Default Work Unit\cckStep" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2634211848" Name="cckStep" ObjectPath="\Events\Default Work Unit\cckStep" DurationType="OneShot" DurationMin="0.041701" DurationMax="0.232200">
+					<IncludedMemoryFiles>
+						<File Id="15054362" Language="SFX">
+							<ShortName>Steps\cckStep_08.wav</ShortName>
+							<Path>SFX/Steps/cckStep_08_10C4C929.wem</Path>
+						</File>
+						<File Id="61472585" Language="SFX">
+							<ShortName>Steps\cckStep_11.wav</ShortName>
+							<Path>SFX/Steps/cckStep_11_10C4C929.wem</Path>
+						</File>
+						<File Id="188207696" Language="SFX">
+							<ShortName>Steps\cckStep_02.wav</ShortName>
+							<Path>SFX/Steps/cckStep_02_10C4C929.wem</Path>
+						</File>
+						<File Id="236869742" Language="SFX">
+							<ShortName>Steps\cckStep_12.wav</ShortName>
+							<Path>SFX/Steps/cckStep_12_10C4C929.wem</Path>
+						</File>
+						<File Id="275879424" Language="SFX">
+							<ShortName>Steps\cckStep_09.wav</ShortName>
+							<Path>SFX/Steps/cckStep_09_10C4C929.wem</Path>
+						</File>
+						<File Id="364892973" Language="SFX">
+							<ShortName>Steps\cckStep_07.wav</ShortName>
+							<Path>SFX/Steps/cckStep_07_10C4C929.wem</Path>
+						</File>
+						<File Id="367814964" Language="SFX">
+							<ShortName>Steps\cckStep_14.wav</ShortName>
+							<Path>SFX/Steps/cckStep_14_10C4C929.wem</Path>
+						</File>
+						<File Id="488003073" Language="SFX">
+							<ShortName>Steps\cckStep_01.wav</ShortName>
+							<Path>SFX/Steps/cckStep_01_10C4C929.wem</Path>
+						</File>
+						<File Id="515034065" Language="SFX">
+							<ShortName>Steps\cckStep_13.wav</ShortName>
+							<Path>SFX/Steps/cckStep_13_10C4C929.wem</Path>
+						</File>
+						<File Id="569828731" Language="SFX">
+							<ShortName>Steps\cckStep_05.wav</ShortName>
+							<Path>SFX/Steps/cckStep_05_10C4C929.wem</Path>
+						</File>
+						<File Id="961281042" Language="SFX">
+							<ShortName>Steps\cckStep_04.wav</ShortName>
+							<Path>SFX/Steps/cckStep_04_10C4C929.wem</Path>
+						</File>
+						<File Id="992035076" Language="SFX">
+							<ShortName>Steps\cckStep_06.wav</ShortName>
+							<Path>SFX/Steps/cckStep_06_10C4C929.wem</Path>
+						</File>
+						<File Id="992613679" Language="SFX">
+							<ShortName>Steps\cckStep_10.wav</ShortName>
+							<Path>SFX/Steps/cckStep_10_10C4C929.wem</Path>
+						</File>
+						<File Id="1049453860" Language="SFX">
+							<ShortName>Steps\cckStep_03.wav</ShortName>
+							<Path>SFX/Steps/cckStep_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite">
 					<IncludedMemoryFiles>

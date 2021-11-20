@@ -26,6 +26,341 @@
 						<ActiveSource Name="ChickenJump" ID="{F1C35009-83A1-47C7-86AD-77998D6FCD4B}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="cckSteps" ID="{E35C154D-E585-420C-83DD-987C6A0F4191}" ShortID="916257532">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="cckStep_01" ID="{E692558B-AF4C-4750-8B08-AE7E2CF42F37}" ShortID="872427175">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_01" ID="{FFB383B8-7F5B-42D0-84E5-3B9772B8092B}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="488003073"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_01" ID="{FFB383B8-7F5B-42D0-84E5-3B9772B8092B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_02" ID="{E6EDE6B7-15F5-4485-9F07-EC7CB3D6A0E6}" ShortID="60238266">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_02" ID="{EEC3D3DA-C32C-48EA-AA00-C7D5044A3EF0}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="188207696"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_02" ID="{EEC3D3DA-C32C-48EA-AA00-C7D5044A3EF0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_03" ID="{C29FB1A5-3442-4995-A3F6-EEB9CF5E2C26}" ShortID="334700862">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_03" ID="{A3A87F43-05BB-4076-B750-558AFFC2030E}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1049453860"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_03" ID="{A3A87F43-05BB-4076-B750-558AFFC2030E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_04" ID="{1BB2D310-E092-4F0D-B2F7-0EC93649C9A9}" ShortID="402841366">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_04" ID="{8AB20092-35C3-4B90-B552-6B1F26BA8E77}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="961281042"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_04" ID="{8AB20092-35C3-4B90-B552-6B1F26BA8E77}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_05" ID="{C47EB052-30CB-4524-8318-18F77AD04F85}" ShortID="673169066">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_05" ID="{209B324B-7FA3-433E-B082-E043D488665F}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="569828731"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_05" ID="{209B324B-7FA3-433E-B082-E043D488665F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_06" ID="{AB77A575-FB2C-42CF-B1AB-E1E54A576FA0}" ShortID="752599798">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_06" ID="{C7C21AA3-2D5E-4A53-9D15-7E8A59CFA2A4}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992035076"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_06" ID="{C7C21AA3-2D5E-4A53-9D15-7E8A59CFA2A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_07" ID="{85549EE4-C63F-491E-BE1C-D178036AC92D}" ShortID="680699648">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_07" ID="{A498D4A3-4F5F-40AC-9EE6-8A10F6794FC6}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="364892973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_07" ID="{A498D4A3-4F5F-40AC-9EE6-8A10F6794FC6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_08" ID="{0A500952-AF7E-45A9-8DD5-3ECE1BC24CB9}" ShortID="471405757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_08" ID="{A19A13B0-D349-474C-B758-910CBC891D25}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="15054362"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_08" ID="{A19A13B0-D349-474C-B758-910CBC891D25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_09" ID="{4E2E9983-934D-4895-9DFE-B3A088640F39}" ShortID="488753504">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_09" ID="{F746C212-0096-4502-92F7-D52B44186641}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_09.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="275879424"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_09" ID="{F746C212-0096-4502-92F7-D52B44186641}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_10" ID="{663DBED2-793F-45F2-BE1B-7DB6967C8452}" ShortID="366220343">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_10" ID="{D92D8DFF-C203-474B-A757-AFD14E943515}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_10.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="992613679"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_10" ID="{D92D8DFF-C203-474B-A757-AFD14E943515}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_11" ID="{7E6843DE-04F6-4588-B2DD-FF04954C321A}" ShortID="993634971">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_11" ID="{E43433F8-0055-408B-979A-0315E4EFA9B2}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_11.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="61472585"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_11" ID="{E43433F8-0055-408B-979A-0315E4EFA9B2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_12" ID="{3BCC6685-778F-4253-BC83-BE2A4D635AED}" ShortID="752616966">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_12" ID="{CDDF6424-8D4C-4C8C-9878-814FC34C464C}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_12.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="236869742"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_12" ID="{CDDF6424-8D4C-4C8C-9878-814FC34C464C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_13" ID="{D86BF045-B070-4939-9EDF-37F2F01C11EA}" ShortID="1065535713">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_13" ID="{60551FFE-A4D0-4EBA-ACD4-8E2226271857}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_13.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="515034065"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_13" ID="{60551FFE-A4D0-4EBA-ACD4-8E2226271857}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="cckStep_14" ID="{DB0748AF-EE6E-4644-985D-0F9F2B2F5746}" ShortID="550352558">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="cckStep_14" ID="{5E2994A7-7C1F-4D16-A0E2-91BC7DA3ABF6}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\cckStep_14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="367814964"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="cckStep_14" ID="{5E2994A7-7C1F-4D16-A0E2-91BC7DA3ABF6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
