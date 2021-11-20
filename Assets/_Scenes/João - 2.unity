@@ -923,6 +923,16 @@ MonoBehaviour:
   - {x: 4.61, y: 2.21, z: -0.03}
   - {x: 13.84, y: 2.21, z: -0.03}
   - {x: 4.61, y: 2.21, z: -0.03}
+  animationName:
+  - isWalking
+  - isWalking
+  - isWalking
+  - isWalking
+  animationState:
+  - true
+  - false
+  - true
+  - false
   checkPointIndex: 0
 --- !u!114 &845988660
 MonoBehaviour:

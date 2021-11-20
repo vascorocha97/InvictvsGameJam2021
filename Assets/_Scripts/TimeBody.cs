@@ -76,13 +76,16 @@ public class TimeBody : MonoBehaviour
         // may require kinematic replay!!
         // Debug.Log(animation.sprite);
         // animation.enabled = false;
+        CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
 
-        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex));
+        // Debug.Log(CurrentClipInfo[0].clip.name);
+        //string name = CurrentClipInfo[0].clip.name;
+        //Debug.Log(name);
+        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState));
 
         //Fetch the current Animation clip information for the base layer
-        CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
-        Debug.Log(CurrentClipInfo[0].clip.name.ToString());
-        // Debug.Log(animator.GetCurrentAnimatorStateInfo(0).ToString());
+
+        //Debug.Log(animator.GetCurrentAnimatorStateInfo(0).ToString());
         //Access the current length of the clip
         //  m_CurrentClipLength = m_CurrentClipInfo[0].clip.length;
 
@@ -101,7 +104,9 @@ public class TimeBody : MonoBehaviour
             robot.checkPointIndex = objState.checkPointIndex;
             // animation.Rewind();
             // animator.SetFloat("Direction", -1);
-            // animator.Play("BlueBird", -1, float.NegativeInfinity);
+            animator.SetBool("isWalking", objState.isWalking);
+
+            // animator.Play(objState.animationName, -1, float.NegativeInfinity);
 
 
             _state.RemoveAt(0);
@@ -121,12 +126,34 @@ public class TimeBody : MonoBehaviour
 
         public int checkPointIndex;
 
+        public string animationName;
+
+        public bool isWalking;
+
+        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, string _animationName)
+        {
+
+            this.position = _position;
+            this.rotation = _rotation;
+            this.checkPointIndex = _checkPointIndex;
+            this.animationName = _animationName;
+        }
+
         public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex)
         {
 
             this.position = _position;
             this.rotation = _rotation;
             this.checkPointIndex = _checkPointIndex;
+        }
+
+        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, bool _isWalkingState)
+        {
+
+            this.position = _position;
+            this.rotation = _rotation;
+            this.checkPointIndex = _checkPointIndex;
+            this.isWalking = _isWalkingState;
         }
 
 
