@@ -72,8 +72,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="dragonStabsChicken" ID="{F6CF1169-06B5-4845-BE34-4EB497ECEC33}"/>
-				<Event Name="slotMachineReverse" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}"/>
+				<Event Name="dragonStabsChicken" ID="{F6CF1169-06B5-4845-BE34-4EB497ECEC33}">
+					<ChildrenList>
+						<Action Name="" ID="{BB406E16-6059-4FBC-B629-33C3011C5D23}" ShortID="563130809">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="dragonStab" ID="{59271E19-7170-415B-B62C-8D5F72EF8165}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="slotMachineReverse" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}">
+					<ChildrenList>
+						<Action Name="" ID="{2E4BB701-E42D-4E4C-88B8-37E5C606C078}" ShortID="267932362">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="slotMachine" ID="{93273FDC-7F2E-4451-B837-CDCA521EE378}" WorkUnitID="{1F55DCAC-A94F-48EC-83CF-DD538453B817}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -26,6 +26,10 @@
 							<Position X="1" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="dragonStabsChicken" ID="{F6CF1169-06B5-4845-BE34-4EB497ECEC33}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="dragonStep" ID="{DBF3BB2E-462F-4CC3-B3A0-5DF9739000E3}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}"/>
 							<Position X="2" Y="0"/>
 						</Module>

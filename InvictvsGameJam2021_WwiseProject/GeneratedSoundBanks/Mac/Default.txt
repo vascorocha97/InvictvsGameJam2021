@@ -21,6 +21,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	533978401	backwards	timeFlow	\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1FwdLoop		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4351825	slotMachine	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\slotMachine_604833AB.wem		\Actor-Mixer Hierarchy\Default Work Unit\slotMachine		960128
 	10546518	ChickenJump	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\ChickenJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenJump		31272
 	15054362	cckStep_08	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_08		4184
 	61472585	cckStep_11	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_11		20544
@@ -28,16 +29,20 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	188207696	cckStep_02	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_02		3742
 	201722822	dragonStep 01	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 01		27152
 	236869742	cckStep_12	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_12_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_12		18240
+	259000358	dragonStabslotMachine-04_02	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Stabs\dragonStabslotMachine-04_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonStab\dragonStabslotMachine-04_02		122944
 	275879424	cckStep_09	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_09		4888
 	344730394	dragonStep 06	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 06		27256
 	364892973	cckStep_07	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_07		4704
 	367814964	cckStep_14	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_14		4352
 	392266127	Lvl1BackLoop	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Lvl1Back_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1BackLoop		10453400
 	405469489	dragonStep 02	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 02		26848
+	460838119	dragonStabslotMachine-06_03	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Stabs\dragonStabslotMachine-06_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonStab\dragonStabslotMachine-06_03		154688
 	488003073	cckStep_01	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_01		6108
 	515034065	cckStep_13	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_13_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_13		16704
 	569828731	cckStep_05	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\cckStep_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_05		12414
+	570455127	dragonStabslotMachine-02_01	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Stabs\dragonStabslotMachine-02_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonStab\dragonStabslotMachine-02_01		112704
 	665701616	dragonStep 07	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 07		27734
+	668170061	dragonStabslotMachine-07_04	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Stabs\dragonStabslotMachine-07_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonStab\dragonStabslotMachine-07_04		131136
 	681600882	dragonStep 05	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 05		27526
 	705704820	Lvl1FwdLoop	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Lvl1Fwd_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1FwdLoop		14080064
 	720217139	dragonStep 03	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Steps\dragonStep 03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\dragonSteps\dragonStep 03		27306
