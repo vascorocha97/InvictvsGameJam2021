@@ -151,9 +151,9 @@ TextureImporter:
       name: stop-anim_1
       rect:
         serializedVersion: 2
-        x: 231
+        x: 210
         y: 0
-        width: 183
+        width: 200
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: stop-anim_2
       rect:
         serializedVersion: 2
-        x: 454
+        x: 445
         y: 0
-        width: 199
-        height: 176
+        width: 193
+        height: 182
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,9 +193,9 @@ TextureImporter:
       name: stop-anim_3
       rect:
         serializedVersion: 2
-        x: 692
+        x: 676
         y: 0
-        width: 185
+        width: 200
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: stop-anim_4
       rect:
         serializedVersion: 2
-        x: 923
+        x: 909
         y: 0
-        width: 185
-        height: 176
+        width: 193
+        height: 183
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,9 +235,9 @@ TextureImporter:
       name: stop-anim_5
       rect:
         serializedVersion: 2
-        x: 1149
+        x: 1136
         y: 0
-        width: 195
+        width: 200
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -256,9 +256,9 @@ TextureImporter:
       name: stop-anim_6
       rect:
         serializedVersion: 2
-        x: 1385
+        x: 1364
         y: 0
-        width: 185
+        width: 193
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -277,9 +277,9 @@ TextureImporter:
       name: stop-anim_7
       rect:
         serializedVersion: 2
-        x: 1615
+        x: 1599
         y: 0
-        width: 185
+        width: 195
         height: 176
       alignment: 0
       pivot: {x: 0, y: 0}

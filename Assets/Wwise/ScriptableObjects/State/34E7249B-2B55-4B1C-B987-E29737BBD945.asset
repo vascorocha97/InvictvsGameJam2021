@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c3b106cd5914003bb1306f52ec97e5, type: 3}
+  m_Name: 34E7249B-2B55-4B1C-B987-E29737BBD945
+  m_EditorClassIdentifier: 
+  objectName: forwards
+  id: 1058227519
+  guid: 34E7249B-2B55-4B1C-B987-E29737BBD945
+  WwiseStateGroupReference: {fileID: 11400000, guid: bfb861367bb71dc46b0b721cbe240d18, type: 2}
