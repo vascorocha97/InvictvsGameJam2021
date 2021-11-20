@@ -361,6 +361,203 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</RandomSequenceContainer>
+				<RandomSequenceContainer Name="dragonSteps" ID="{8C0E5849-3317-4D14-97C1-2F8F6FCA4F5F}" ShortID="752228766">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dragonStep 01" ID="{8D51513A-511F-47A8-937E-209776C58966}" ShortID="81919893">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 01" ID="{ABBC6855-103E-44DD-BDCA-A50C93B42AD3}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="201722822"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 01" ID="{ABBC6855-103E-44DD-BDCA-A50C93B42AD3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 02" ID="{C36F38CA-03D4-409F-BDBB-5132BFF6619A}" ShortID="860178567">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 02" ID="{87D55E19-BC4C-4577-A7B6-0E84D7C44BC7}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405469489"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 02" ID="{87D55E19-BC4C-4577-A7B6-0E84D7C44BC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 03" ID="{3A6DFB8A-37C1-4B85-BB2F-7E6186CC0455}" ShortID="270308111">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 03" ID="{BAA5D041-3065-4405-B885-A556029E5230}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="720217139"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 03" ID="{BAA5D041-3065-4405-B885-A556029E5230}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 04" ID="{5E4B22AF-082D-4231-AC89-67075141D5F0}" ShortID="685718750">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 04" ID="{5555F003-3081-4A08-9569-D09625339286}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="75083737"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 04" ID="{5555F003-3081-4A08-9569-D09625339286}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 05" ID="{8DA19F2B-49C6-4568-831D-C5442BD81E51}" ShortID="208308923">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 05" ID="{C6A44716-F63D-4626-A772-C61448E49022}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 05.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="681600882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 05" ID="{C6A44716-F63D-4626-A772-C61448E49022}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 06" ID="{D4CD3B04-8EE8-47C2-A15D-5A6C7CE8751B}" ShortID="721407834">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 06" ID="{5FF93544-573A-456E-9C09-A0E65824D017}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 06.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="344730394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 06" ID="{5FF93544-573A-456E-9C09-A0E65824D017}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 07" ID="{16FC0A2D-5023-485D-A4C3-F24E53CBA1D0}" ShortID="568564132">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 07" ID="{BA4A6562-902F-4B5C-890C-CE86B74058D5}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 07.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665701616"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 07" ID="{BA4A6562-902F-4B5C-890C-CE86B74058D5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStep 08" ID="{B734CEF0-48FA-411C-B5BA-928F7879EBBD}" ShortID="506121767">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStep 08" ID="{C33F1F0E-9AFA-4D3E-B706-73932C56671C}">
+									<Language>SFX</Language>
+									<AudioFile>Steps\dragonStep 08.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1022848384"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStep 08" ID="{C33F1F0E-9AFA-4D3E-B706-73932C56671C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

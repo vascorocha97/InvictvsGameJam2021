@@ -509,22 +509,6 @@
 								<AudioNodeRef Name="Level1Fwd" ID="{FE565E89-98F8-4392-8310-DC226A8D87CF}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="Level1Fwd" ID="{FE565E89-98F8-4392-8310-DC226A8D87CF}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
-								<PathElementRef Name="backwards" ID="{BF1CDAEE-6E11-44D5-B39B-E57AD4EEEC5A}"/>
-							</Path>
-							<AudioNodeInfo>
-								<NoObject Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
 					</EntryList>
 				</MusicSwitchContainer>
 			</ChildrenList>
