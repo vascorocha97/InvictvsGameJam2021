@@ -2268,30 +2268,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Size.x
-      value: 1.6635417
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Size.y
-      value: 1.669326
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Offset.x
-      value: 0.0032848716
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.05295044
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 1.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840105, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.76
-      objectReference: {fileID: 0}
     - target: {fileID: 5205100378317840109, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2339,22 +2315,6 @@ PrefabInstance:
     - target: {fileID: 5205100378317840110, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840111, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 5791020788233103203, guid: d112161efbba6bd4299b0603a25adee9, type: 3}
-    - target: {fileID: 5205100378317840111, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840111, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5205100378317840111, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
