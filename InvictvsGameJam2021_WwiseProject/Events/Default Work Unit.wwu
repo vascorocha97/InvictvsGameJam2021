@@ -50,7 +50,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="cckTimeTravel" ID="{861FFD0B-32AD-4D9F-962E-B292C0246CA1}"/>
 				<Event Name="dragonStep" ID="{DBF3BB2E-462F-4CC3-B3A0-5DF9739000E3}">
 					<ChildrenList>
 						<Action Name="" ID="{AB8D87F6-20E8-4AB2-838B-B1454F127091}" ShortID="725042714">
@@ -73,6 +72,8 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="dragonStabsChicken" ID="{F6CF1169-06B5-4845-BE34-4EB497ECEC33}"/>
+				<Event Name="slotMachineReverse" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

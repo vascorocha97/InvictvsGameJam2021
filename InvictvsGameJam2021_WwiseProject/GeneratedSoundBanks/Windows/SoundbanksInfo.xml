@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3542398222">
+		<SoundBank Id="782826392" Language="SFX" Hash="704712162">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -84,7 +84,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.527767" DurationMax="1.957381">
 					<IncludedMemoryFiles>
 						<File Id="1055277156" Language="SFX">
@@ -93,6 +92,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2914690528" Name="dragonStabsChicken" ObjectPath="\Events\Default Work Unit\dragonStabsChicken" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3080755390" Name="dragonStep" ObjectPath="\Events\Default Work Unit\dragonStep" DurationType="OneShot" DurationMin="0.293946" DurationMax="0.317438">
 					<IncludedMemoryFiles>
 						<File Id="75083737" Language="SFX">
@@ -155,6 +155,7 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1638678045" Name="levelStop" ObjectPath="\Events\Default Work Unit\levelStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="205509026" Name="slotMachineReverse" ObjectPath="\Events\Default Work Unit\slotMachineReverse" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="422996926" Name="timeFlow" ObjectPath="\States\Default Work Unit\timeFlow" GUID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
@@ -166,7 +167,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1947532366">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1242299809">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
