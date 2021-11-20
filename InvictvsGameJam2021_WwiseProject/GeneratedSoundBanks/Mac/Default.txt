@@ -5,6 +5,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3003443782	cckJump			\Default Work Unit\cckJump	
 	3372421815	levelStart			\Default Work Unit\levelStart	
 
+State Group	ID	Name			Wwise Object Path	Notes
+	422996926	timeFlow			\Default Work Unit\timeFlow	
+
+State	ID	Name	State Group			Notes
+	748895195	None	timeFlow			
+	1058227519	forwards	timeFlow			
+	3876169137	backwards	timeFlow			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	10546518	ChickenJump	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\ChickenJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenJump		31272
+	705704820	Lvl1FwdLoop	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Lvl1Fwd_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdLoop\Lvl1FwdLoop		14080064
+	845321622	Intro	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Mac\SFX\Music_Intro_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Level1\Level1Fwd\Level1FwdIntro\Intro		3520064
 
