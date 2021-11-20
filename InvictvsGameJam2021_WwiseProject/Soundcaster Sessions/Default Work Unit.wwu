@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{527C17B0-A2CA-4DF4-ACF5-6FB9289E7BD4}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{527C17B0-A2CA-4DF4-ACF5-6FB9289E7BD4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main soundcaster session" ID="{FA5A6593-8B88-4E84-B64B-7BA87F44AD07}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

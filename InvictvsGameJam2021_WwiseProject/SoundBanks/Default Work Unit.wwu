@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{080D57B5-9C9A-4C4A-B1C1-EB6EE66FCFE1}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{080D57B5-9C9A-4C4A-B1C1-EB6EE66FCFE1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Default" ID="{700778AE-18C4-4A8B-BDB0-0C02F864E374}">
+					<ObjectInclusionList>
+						<ObjectRef Name="levelStop" ID="{8DD2DE8D-A9E3-4116-9909-CE7FBD5C7615}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="cckTimeTravel" ID="{861FFD0B-32AD-4D9F-962E-B292C0246CA1}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
