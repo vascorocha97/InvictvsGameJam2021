@@ -831,7 +831,7 @@ Animator:
   m_GameObject: {fileID: 845988655}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 749c16c9d5077dc459c17e507ad5cde0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 043273e3e720e6145a971cc2ecac9d53, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -881,7 +881,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -7669394594801963949, guid: f19ab5d0aad7c134eb68e054e921aaa8, type: 3}
-  m_Color: {r: 0.22574759, g: 0.36196467, b: 0.5377358, a: 1}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -934,6 +934,7 @@ MonoBehaviour:
   - true
   - false
   checkPointIndex: 0
+  walkingAnimationState: 0
 --- !u!114 &845988660
 MonoBehaviour:
   m_ObjectHideFlags: 0
