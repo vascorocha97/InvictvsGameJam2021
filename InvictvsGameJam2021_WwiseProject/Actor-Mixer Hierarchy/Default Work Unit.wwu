@@ -369,6 +369,14 @@
 					<ObjectLists/>
 				</RandomSequenceContainer>
 				<RandomSequenceContainer Name="dragonSteps" ID="{8C0E5849-3317-4D14-97C1-2F8F6FCA4F5F}" ShortID="752228766">
+					<PropertyList>
+						<Property Name="EnableLoudnessNormalization" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
@@ -593,6 +601,9 @@
 					</ReferenceList>
 					<ChildrenList>
 						<AudioFileSource Name="dragonFire" ID="{AB245625-609B-4CC4-BA38-4777CA6B20BC}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>dragonFire.wav</AudioFile>
 							<MediaIDList>
@@ -605,6 +616,163 @@
 						<ActiveSource Name="dragonFire" ID="{AB245625-609B-4CC4-BA38-4777CA6B20BC}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="slotMachine" ID="{93273FDC-7F2E-4451-B837-CDCA521EE378}" ShortID="546187445">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="slotMachine" ID="{F01120C9-F120-4107-80EC-E74FC5B520C5}">
+							<PropertyList>
+								<Property Name="LoopBegin" Type="Real64" Value="1.39130434782609"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>slotMachine.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="4351825"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="slotMachine" ID="{F01120C9-F120-4107-80EC-E74FC5B520C5}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="dragonStab" ID="{59271E19-7170-415B-B62C-8D5F72EF8165}" ShortID="228132207">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>100</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{CE358630-DE82-4264-B983-F670FFAAC80F}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Min" Type="Real64" Value="-278"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="dragonStabslotMachine-02_01" ID="{8978A300-9268-4C83-82FC-E600AF0DC1D0}" ShortID="898959195">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStabslotMachine-02_01" ID="{FAAD1077-9177-400D-B8C8-C588C1D5738B}">
+									<Language>SFX</Language>
+									<AudioFile>Stabs\dragonStabslotMachine-02_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="570455127"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStabslotMachine-02_01" ID="{FAAD1077-9177-400D-B8C8-C588C1D5738B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStabslotMachine-04_02" ID="{93F40C31-2A44-4005-AA14-E3C3E3C2D2EB}" ShortID="511565181">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStabslotMachine-04_02" ID="{15F8A200-9612-4BB5-A4B4-5C4A5987065D}">
+									<Language>SFX</Language>
+									<AudioFile>Stabs\dragonStabslotMachine-04_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="259000358"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStabslotMachine-04_02" ID="{15F8A200-9612-4BB5-A4B4-5C4A5987065D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStabslotMachine-06_03" ID="{82DAC89B-5FB8-4D17-93D5-7B640129A1C8}" ShortID="560553254">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStabslotMachine-06_03" ID="{B03F9A2D-1EF7-4E11-BEFB-14452F3D52F5}">
+									<Language>SFX</Language>
+									<AudioFile>Stabs\dragonStabslotMachine-06_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="460838119"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStabslotMachine-06_03" ID="{B03F9A2D-1EF7-4E11-BEFB-14452F3D52F5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="dragonStabslotMachine-07_04" ID="{C54D54B0-DFA4-4E08-993D-C2B6681C6F9E}" ShortID="809262173">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CF9472A1-076B-4BD0-8C88-ACB984B9D23F}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E213DC13-6EF9-4C52-B3F0-84697D54EC55}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="dragonStabslotMachine-07_04" ID="{4960D775-0218-40E1-ABC9-2000DF83F4E1}">
+									<Language>SFX</Language>
+									<AudioFile>Stabs\dragonStabslotMachine-07_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="668170061"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="dragonStabslotMachine-07_04" ID="{4960D775-0218-40E1-ABC9-2000DF83F4E1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

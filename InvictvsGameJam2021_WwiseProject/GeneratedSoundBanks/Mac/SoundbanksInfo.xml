@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3542398222">
+		<SoundBank Id="782826392" Language="SFX" Hash="3806611750">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -84,7 +84,6 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1000239925" Name="cckTimeTravel" ObjectPath="\Events\Default Work Unit\cckTimeTravel" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.527767" DurationMax="1.957381">
 					<IncludedMemoryFiles>
 						<File Id="1055277156" Language="SFX">
@@ -93,39 +92,59 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2914690528" Name="dragonStabsChicken" ObjectPath="\Events\Default Work Unit\dragonStabsChicken" DurationType="OneShot" DurationMin="0.602710" DurationMax="0.971474">
+					<IncludedMemoryFiles>
+						<File Id="259000358" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-04_02.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-04_02_10C4C929.wem</Path>
+						</File>
+						<File Id="460838119" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-06_03.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-06_03_10C4C929.wem</Path>
+						</File>
+						<File Id="570455127" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-02_01.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-02_01_10C4C929.wem</Path>
+						</File>
+						<File Id="668170061" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-07_04.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-07_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3080755390" Name="dragonStep" ObjectPath="\Events\Default Work Unit\dragonStep" DurationType="OneShot" DurationMin="0.293946" DurationMax="0.317438">
 					<IncludedMemoryFiles>
 						<File Id="75083737" Language="SFX">
 							<ShortName>Steps\dragonStep 04.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 04_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 04_BFB259A6.wem</Path>
 						</File>
 						<File Id="201722822" Language="SFX">
 							<ShortName>Steps\dragonStep 01.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 01_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 01_BFB259A6.wem</Path>
 						</File>
 						<File Id="344730394" Language="SFX">
 							<ShortName>Steps\dragonStep 06.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 06_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 06_BFB259A6.wem</Path>
 						</File>
 						<File Id="405469489" Language="SFX">
 							<ShortName>Steps\dragonStep 02.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 02_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 02_BFB259A6.wem</Path>
 						</File>
 						<File Id="665701616" Language="SFX">
 							<ShortName>Steps\dragonStep 07.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 07_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 07_BFB259A6.wem</Path>
 						</File>
 						<File Id="681600882" Language="SFX">
 							<ShortName>Steps\dragonStep 05.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 05_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 05_BFB259A6.wem</Path>
 						</File>
 						<File Id="720217139" Language="SFX">
 							<ShortName>Steps\dragonStep 03.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 03_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 03_BFB259A6.wem</Path>
 						</File>
 						<File Id="1022848384" Language="SFX">
 							<ShortName>Steps\dragonStep 08.wav</ShortName>
-							<Path>SFX/Steps/dragonStep 08_10C4C929.wem</Path>
+							<Path>SFX/Steps/dragonStep 08_BFB259A6.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -155,6 +174,15 @@
 					</SwitchContainers>
 				</Event>
 				<Event Id="1638678045" Name="levelStop" ObjectPath="\Events\Default Work Unit\levelStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="205509026" Name="slotMachineReverse" ObjectPath="\Events\Default Work Unit\slotMachineReverse" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="4351825" Language="SFX">
+							<ShortName>slotMachine.wav</ShortName>
+							<Path>SFX/slotMachine_604833AB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3763804504" Name="slotMachineStop" ObjectPath="\Events\Default Work Unit\slotMachineStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="422996926" Name="timeFlow" ObjectPath="\States\Default Work Unit\timeFlow" GUID="{438DBDAE-5DDD-4965-83EA-008DCAE59AEF}">
@@ -166,7 +194,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1133414380">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1379415415">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
