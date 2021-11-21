@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1638678045	levelStop			\Default Work Unit\levelStop	
 	1930973732	slotMachineStart			\Default Work Unit\slotMachineStart	
+	2162058040	lastSplash			\Default Work Unit\lastSplash	
 	2634211848	cckStep			\Default Work Unit\cckStep	
 	2914690528	dragonStabsChicken			\Default Work Unit\dragonStabsChicken	
 	3003443782	cckJump			\Default Work Unit\cckJump	

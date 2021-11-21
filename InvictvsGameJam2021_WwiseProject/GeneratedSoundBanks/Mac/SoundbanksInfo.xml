@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3183997628">
+		<SoundBank Id="782826392" Language="SFX" Hash="3387359882">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -145,6 +145,14 @@
 						<File Id="1022848384" Language="SFX">
 							<ShortName>Steps\dragonStep 08.wav</ShortName>
 							<Path>SFX/Steps/dragonStep 08_BFB259A6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2162058040" Name="lastSplash" ObjectPath="\Events\Default Work Unit\lastSplash" DurationType="OneShot" DurationMin="13.888888" DurationMax="13.888888">
+					<IncludedMemoryFiles>
+						<File Id="473100592" Language="SFX">
+							<ShortName>jingleFranguinhos.wav</ShortName>
+							<Path>SFX/jingleFranguinhos_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

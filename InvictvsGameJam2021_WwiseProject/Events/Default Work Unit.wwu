@@ -105,6 +105,17 @@
 					</ChildrenList>
 				</Event>
 				<Event Name="slotMachineStop" ID="{ECAD5F62-C426-4E40-8492-532CC4418FE0}"/>
+				<Event Name="lastSplash" ID="{2F84D739-5B18-4B32-8279-DAC86ADE96E5}">
+					<ChildrenList>
+						<Action Name="" ID="{80AE60BA-6D11-4A98-9D5D-2C8E621E6C7B}" ShortID="421375188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="endingJingle" ID="{393C6432-D23A-4D8F-8CA3-F9CB87D54172}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
