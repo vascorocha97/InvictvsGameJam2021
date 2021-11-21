@@ -8,6 +8,8 @@ public class ArduinoSerial : MonoBehaviour
     float next_time; int ii = 0;
     private TimeBody timeBody;
 
+    private bool firstTime = false;
+
 
     // Use this for initialization
     void Start()
@@ -45,6 +47,13 @@ public class ArduinoSerial : MonoBehaviour
             }
             if (sp.IsOpen)
             {
+                if (firstTime == true)
+                {
+                    ii = 8;
+                    print("Writing " + ii);
+                    sp.Write(ii.ToString());
+                    next_time = Time.time + (float)2;
+                }
                 if (timeBody._isRewinding == true)
                 {
                     ii = 8;

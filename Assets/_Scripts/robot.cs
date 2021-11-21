@@ -12,14 +12,22 @@ public class robot : MonoBehaviour
 
     [SerializeField] private List<string> animationState;
 
+    [SerializeField] private List<int> sleepTime;
+
+    [SerializeField] private List<int> stateLock;
+
 
     private TimeBody timeBody;
     public int checkPointIndex = 0;
 
     public bool walkingAnimationState;
 
+    public string pAnimationName;
+
 
     private Animator animator;
+
+    public int state = 0;
 
     void Start()
     {
@@ -30,28 +38,52 @@ public class robot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //  StartCoroutine(MoveDragon());
         walkingAnimationState = false;
 
-        if (timeBody._isRewinding == false)
+        if (timeBody._isRewinding == false && checkPointIndex <= positions.Length)
         {
             transform.position = Vector3.MoveTowards(transform.position, positions[checkPointIndex], Time.deltaTime * speed);
-            if (animationState[checkPointIndex] == "true") { walkingAnimationState = true; }
-            animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
-            if (transform.position == positions[checkPointIndex])
-            {
-                if (checkPointIndex == positions.Length - 1)
-                {
-                    checkPointIndex = 0;
+            // if (animationState[checkPointIndex] == "true") { walkingAnimationState = true; }
+            // animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
 
-                }
-                else
-                {
-                    checkPointIndex++;
-                }
+            animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
+            pAnimationName = animationName[checkPointIndex];
+            if (animationState[checkPointIndex] == "true")
+            {
+                walkingAnimationState = true;
+                animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
+                // yield return new WaitForSeconds(2f);
+            }
+
+
+            if (transform.position == positions[checkPointIndex] && state == stateLock[checkPointIndex])
+            {
+                //   if (checkPointIndex == positions.Length - 1)
+                //{
+                //  checkPointIndex = 0;
+
+
+
+
+                //}
+                // else
+                //{
+                checkPointIndex++;
+                //}
             }
         }
-
     }
+
+    public void updateState()
+    {
+        // We could increment or not
+        state++;
+    }
+
+
+    //IEnumerator MoveDragon()
+
 
     public class AnimationState
     {
@@ -72,5 +104,7 @@ public class robot : MonoBehaviour
         }
 
     }
+
+
 
 }
