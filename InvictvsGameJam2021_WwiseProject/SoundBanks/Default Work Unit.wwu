@@ -9,7 +9,7 @@
 						<ObjectRef Name="dragonFire" ID="{427B2EDD-33A2-418D-9ECE-E8DE0D1EC107}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="cckStep" ID="{57815426-FB81-4345-B2F1-11A86B31DCE9}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="slotMachineReverse" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="slotMachineStart" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="dragonStabsChicken" ID="{F6CF1169-06B5-4845-BE34-4EB497ECEC33}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="cckJump" ID="{75AF54B3-FBAA-48E6-82AB-B60092840F70}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="dragonStep" ID="{DBF3BB2E-462F-4CC3-B3A0-5DF9739000E3}" WorkUnitID="{FA5FCA40-7B91-45F5-BF27-3B8528E2D7D4}" Origin="Manual" Filter="7"/>

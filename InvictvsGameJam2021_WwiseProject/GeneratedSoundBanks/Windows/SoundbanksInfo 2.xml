@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/Lucas/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/InvictvsGameJam2021/InvictvsGameJam2021_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/Lucas/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/InvictvsGameJam2021/InvictvsGameJam2021_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/Lucas/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/InvictvsGameJam2021/InvictvsGameJam2021_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/Lucas/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/InvictvsGameJam2021/InvictvsGameJam2021_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="782826392" Language="SFX" Hash="3741698781">
+			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
+			<ShortName>Default</ShortName>
+			<Path>Default.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3003443782" Name="cckJump" ObjectPath="\Events\Default Work Unit\cckJump" DurationType="OneShot" DurationMin="0.325083" DurationMax="0.325083">
+					<IncludedMemoryFiles>
+						<File Id="10546518" Language="SFX">
+							<ShortName>ChickenJump.wav</ShortName>
+							<Path>SFX/ChickenJump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2634211848" Name="cckStep" ObjectPath="\Events\Default Work Unit\cckStep" DurationType="OneShot" DurationMin="0.041701" DurationMax="0.232200">
+					<IncludedMemoryFiles>
+						<File Id="15054362" Language="SFX">
+							<ShortName>Steps\cckStep_08.wav</ShortName>
+							<Path>SFX/Steps/cckStep_08_10C4C929.wem</Path>
+						</File>
+						<File Id="61472585" Language="SFX">
+							<ShortName>Steps\cckStep_11.wav</ShortName>
+							<Path>SFX/Steps/cckStep_11_10C4C929.wem</Path>
+						</File>
+						<File Id="188207696" Language="SFX">
+							<ShortName>Steps\cckStep_02.wav</ShortName>
+							<Path>SFX/Steps/cckStep_02_10C4C929.wem</Path>
+						</File>
+						<File Id="236869742" Language="SFX">
+							<ShortName>Steps\cckStep_12.wav</ShortName>
+							<Path>SFX/Steps/cckStep_12_10C4C929.wem</Path>
+						</File>
+						<File Id="275879424" Language="SFX">
+							<ShortName>Steps\cckStep_09.wav</ShortName>
+							<Path>SFX/Steps/cckStep_09_10C4C929.wem</Path>
+						</File>
+						<File Id="364892973" Language="SFX">
+							<ShortName>Steps\cckStep_07.wav</ShortName>
+							<Path>SFX/Steps/cckStep_07_10C4C929.wem</Path>
+						</File>
+						<File Id="367814964" Language="SFX">
+							<ShortName>Steps\cckStep_14.wav</ShortName>
+							<Path>SFX/Steps/cckStep_14_10C4C929.wem</Path>
+						</File>
+						<File Id="488003073" Language="SFX">
+							<ShortName>Steps\cckStep_01.wav</ShortName>
+							<Path>SFX/Steps/cckStep_01_10C4C929.wem</Path>
+						</File>
+						<File Id="515034065" Language="SFX">
+							<ShortName>Steps\cckStep_13.wav</ShortName>
+							<Path>SFX/Steps/cckStep_13_10C4C929.wem</Path>
+						</File>
+						<File Id="569828731" Language="SFX">
+							<ShortName>Steps\cckStep_05.wav</ShortName>
+							<Path>SFX/Steps/cckStep_05_10C4C929.wem</Path>
+						</File>
+						<File Id="961281042" Language="SFX">
+							<ShortName>Steps\cckStep_04.wav</ShortName>
+							<Path>SFX/Steps/cckStep_04_10C4C929.wem</Path>
+						</File>
+						<File Id="992035076" Language="SFX">
+							<ShortName>Steps\cckStep_06.wav</ShortName>
+							<Path>SFX/Steps/cckStep_06_10C4C929.wem</Path>
+						</File>
+						<File Id="992613679" Language="SFX">
+							<ShortName>Steps\cckStep_10.wav</ShortName>
+							<Path>SFX/Steps/cckStep_10_10C4C929.wem</Path>
+						</File>
+						<File Id="1049453860" Language="SFX">
+							<ShortName>Steps\cckStep_03.wav</ShortName>
+							<Path>SFX/Steps/cckStep_03_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.527767" DurationMax="1.957381">
+					<IncludedMemoryFiles>
+						<File Id="1055277156" Language="SFX">
+							<ShortName>dragonFire.wav</ShortName>
+							<Path>SFX/dragonFire_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2914690528" Name="dragonStabsChicken" ObjectPath="\Events\Default Work Unit\dragonStabsChicken" DurationType="OneShot" DurationMin="0.602710" DurationMax="0.971474">
+					<IncludedMemoryFiles>
+						<File Id="259000358" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-04_02.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-04_02_10C4C929.wem</Path>
+						</File>
+						<File Id="460838119" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-06_03.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-06_03_10C4C929.wem</Path>
+						</File>
+						<File Id="570455127" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-02_01.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-02_01_10C4C929.wem</Path>
+						</File>
+						<File Id="668170061" Language="SFX">
+							<ShortName>Stabs\dragonStabslotMachine-07_04.wav</ShortName>
+							<Path>SFX/Stabs/dragonStabslotMachine-07_04_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3080755390" Name="dragonStep" ObjectPath="\Events\Default Work Unit\dragonStep" DurationType="OneShot" DurationMin="0.293946" DurationMax="0.317438">
+					<IncludedMemoryFiles>
+						<File Id="75083737" Language="SFX">
+							<ShortName>Steps\dragonStep 04.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 04_BFB259A6.wem</Path>
+						</File>
+						<File Id="201722822" Language="SFX">
+							<ShortName>Steps\dragonStep 01.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 01_BFB259A6.wem</Path>
+						</File>
+						<File Id="344730394" Language="SFX">
+							<ShortName>Steps\dragonStep 06.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 06_BFB259A6.wem</Path>
+						</File>
+						<File Id="405469489" Language="SFX">
+							<ShortName>Steps\dragonStep 02.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 02_BFB259A6.wem</Path>
+						</File>
+						<File Id="665701616" Language="SFX">
+							<ShortName>Steps\dragonStep 07.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 07_BFB259A6.wem</Path>
+						</File>
+						<File Id="681600882" Language="SFX">
+							<ShortName>Steps\dragonStep 05.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 05_BFB259A6.wem</Path>
+						</File>
+						<File Id="720217139" Language="SFX">
+							<ShortName>Steps\dragonStep 03.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 03_BFB259A6.wem</Path>
+						</File>
+						<File Id="1022848384" Language="SFX">
+							<ShortName>Steps\dragonStep 08.wav</ShortName>
+							<Path>SFX/Steps/dragonStep 08_BFB259A6.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="392266127" Language="SFX">
+							<ShortName>Lvl1Back.wav</ShortName>
+							<Path>SFX/Lvl1Back_D79FB2B7.wem</Path>
+						</File>
+						<File Id="459617303" Language="SFX">
+							<ShortName>Lvl1Intro.wav</ShortName>
+							<Path>SFX/Lvl1Intro_D79FB2B7.wem</Path>
+						</File>
+						<File Id="473100592" Language="SFX">
+							<ShortName>jingleFranguinhos.wav</ShortName>
+							<Path>SFX/jingleFranguinhos_D79FB2B7.wem</Path>
+						</File>
+						<File Id="498496767" Language="SFX">
+							<ShortName>Lvl1Fwd.wav</ShortName>
+							<Path>SFX/Lvl1Fwd_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{FA08CE0E-A4C2-451D-A05C-28D405C0F7C2}">
+							<Media>
+								<File Id="392266127"/>
+								<File Id="459617303"/>
+								<File Id="498496767"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{593C7AA1-B4F4-4DC0-8844-E42B7B91B257}">
+							<Media>
+								<File Id="473100592"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1852808225" Name="playing" ObjectPath="\Switches\Default Work Unit\gameplay\playing"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1638678045" Name="levelStop" ObjectPath="\Events\Default Work Unit\levelStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3966194980" Name="ending" ObjectPath="\Switches\Default Work Unit\gameplay\ending"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1930973732" Name="slotMachineStart" ObjectPath="\Events\Default Work Unit\slotMachineStart" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3763804504" Name="slotMachineStop" ObjectPath="\Events\Default Work Unit\slotMachineStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="89505537" Name="gameplay" ObjectPath="\Switches\Default Work Unit\gameplay" GUID="{7F24FF08-37F5-4628-ADE0-5AE0E54C6176}">
+					<Switches>
+						<Switch Id="1852808225" Name="playing" ObjectPath="\Switches\Default Work Unit\gameplay\playing" GUID="{FA08CE0E-A4C2-451D-A05C-28D405C0F7C2}"/>
+						<Switch Id="3966194980" Name="ending" ObjectPath="\Switches\Default Work Unit\gameplay\ending" GUID="{593C7AA1-B4F4-4DC0-8844-E42B7B91B257}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1852808225" Name="playing" ObjectPath="\Switches\Default Work Unit\gameplay\playing" GUID="{FA08CE0E-A4C2-451D-A05C-28D405C0F7C2}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3966194980" Name="ending" ObjectPath="\Switches\Default Work Unit\gameplay\ending" GUID="{593C7AA1-B4F4-4DC0-8844-E42B7B91B257}">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1242299809">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
