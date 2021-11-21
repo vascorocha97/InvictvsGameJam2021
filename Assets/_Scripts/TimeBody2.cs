@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeBody : MonoBehaviour
+public class TimeBody2 : MonoBehaviour
 {
     // Start is called before the first frame update
     // public List<Vector3> _positions;
@@ -17,16 +17,23 @@ public class TimeBody : MonoBehaviour
 
     private AnimatorClipInfo[] CurrentClipInfo;
 
+    private Door porta;
     private string word;
+
+    public GameObject openDoor;
+    public GameObject closedDoor;
+
+    private TimeBody2 timeBody;
 
 
     void Start()
     {
         _state = new List<ObjState>();
         // May not work if we have more than one instance!
-        robot = gameObject.GetComponent<robot>();
-        animation = gameObject.GetComponent<Animation>();
-        animator = gameObject.GetComponent<Animator>();
+
+        porta = gameObject.GetComponent<Door>();
+        timeBody = gameObject.GetComponent<TimeBody2>();
+
 
 
     }
@@ -55,7 +62,7 @@ public class TimeBody : MonoBehaviour
     public void StopRewind()
     {
         _isRewinding = false;
-        animator.SetFloat("Direction", 1);
+
 
     }
 
@@ -81,7 +88,7 @@ public class TimeBody : MonoBehaviour
         Debug.Log(CurrentClipInfo[0].clip.name);
         //string name = CurrentClipInfo[0].clip.name;
         //Debug.Log(name);
-        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState, robot.state, robot.pAnimationName));
+        _state.Insert(0, new ObjState(porta.isActive));
 
         //Fetch the current Animation clip information for the base layer
 
@@ -98,25 +105,22 @@ public class TimeBody : MonoBehaviour
         {
             // transform.position = _positions[0];
             // _positions.RemoveAt(0);
+            // porta.OpenDoor();
             ObjState objState = _state[0];
-            transform.position = objState.position;
-            transform.rotation = objState.rotation;
-            robot.checkPointIndex = objState.checkPointIndex;
-            robot.state = objState.state;
-            // animation.Rewind();
-            animator.SetFloat("Direction", -1);
-            /** if (objState.isWalking == false)
-             {
-                 animator.SetBool("AtackBool", true);
-
-             }
-             else
-             {
-                 animator.SetBool("AtackBool", false);
-             }~
+            if (objState.isWalking == true)
+            {
+                closedDoor.SetActive(false);
+                openDoor.SetActive(true);
+            }
+            else
+            {
+                closedDoor.SetActive(true);
+                openDoor.SetActive(false);
+            }
 
 
-             **/
+
+
 
             animator.SetBool("AtackBool", objState.isWalking);
             // animator.SetBool(objState.animationName, objState.isWalking);
@@ -134,6 +138,8 @@ public class TimeBody : MonoBehaviour
         }
 
     }
+
+
 
     public class ObjState
     {
@@ -157,6 +163,13 @@ public class TimeBody : MonoBehaviour
             this.checkPointIndex = _checkPointIndex;
             this.animationName = _animationName;
         }
+
+        public ObjState(bool _isActive)
+        {
+
+            this.isWalking = _isActive;
+        }
+
 
         public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex)
         {

@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    public enum TimeState {Regular, Rewinding}
+    public enum TimeState { Regular, Rewinding }
     public TimeState timeState = TimeState.Regular;
     public float rewindSpeed = 2f;
 
     void Update()
-    {        
+    {
         HandleTimeStates();
     }
 
-    public void HandleTimeStates() 
+    public void HandleTimeStates()
     {
-        if (Input.GetButton("Fire1"))
+        if (Input.GetButton("Fire1") && SlotMachine.Instance.canRewind)
         {
             timeState = TimeState.Rewinding;
         }
@@ -24,17 +24,17 @@ public class GameManager : MonoBehaviour
             timeState = TimeState.Regular;
         }
 
-        switch (timeState) 
+        switch (timeState)
         {
             case (TimeState.Regular):
                 Time.timeScale = 1;
                 break;
-            case (TimeState.Rewinding):           
+            case (TimeState.Rewinding):
                 Time.timeScale = rewindSpeed;
                 break;
             default:
                 break;
-            
+
         }
     }
 }
