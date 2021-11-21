@@ -10714,7 +10714,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 774492258}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: player parent
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -11903,7 +11903,7 @@ GameObject:
   - component: {fileID: 2096005685}
   - component: {fileID: 2096005684}
   - component: {fileID: 2096005683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: dragao-robo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
