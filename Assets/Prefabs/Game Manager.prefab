@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeState: 0
-  rewindSpeed: 2
+  rewindSpeed: 3
