@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="1282995226">
+		<SoundBank Id="782826392" Language="SFX" Hash="3183997628">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -190,7 +190,14 @@
 						<ActionSetSwitchEntry Id="3966194980" Name="ending" ObjectPath="\Switches\Default Work Unit\gameplay\ending"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="1930973732" Name="slotMachineStart" ObjectPath="\Events\Default Work Unit\slotMachineStart" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1930973732" Name="slotMachineStart" ObjectPath="\Events\Default Work Unit\slotMachineStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="4351825" Language="SFX">
+							<ShortName>slotMachine.wav</ShortName>
+							<Path>SFX/slotMachine_D0718E41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3763804504" Name="slotMachineStop" ObjectPath="\Events\Default Work Unit\slotMachineStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<SwitchGroups>

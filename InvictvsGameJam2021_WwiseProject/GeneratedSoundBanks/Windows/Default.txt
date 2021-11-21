@@ -29,6 +29,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	609939464	forwards	timeFlow	\Interactive Music Hierarchy\Default Work Unit\Level\Level1Fwd\Level1FwdLoop\Lvl1BackLoop		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4351825	slotMachine	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\slotMachine_D0718E41.wem		\Actor-Mixer Hierarchy\Default Work Unit\slotMachine		960128
 	10546518	ChickenJump	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\ChickenJump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ChickenJump		31272
 	15054362	cckStep_08	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_08		4184
 	61472585	cckStep_11	Y:\Documents\GitHub\InvictvsGameJam2021\InvictvsGameJam2021_WwiseProject\.cache\Windows\SFX\Steps\cckStep_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\cckSteps\cckStep_11		20544
