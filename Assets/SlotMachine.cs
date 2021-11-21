@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SlotMachine : MonoBehaviour
 {
     public bool canRewind = false;
+
+    public Door porta;
 
     private Animator anim;
 
@@ -26,19 +29,26 @@ public class SlotMachine : MonoBehaviour
 
     private void Update()
     {
-        if (canRewind && Input.GetButtonDown("Fire1")) 
+        if (canRewind && Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("Rewind");
+            Debug.Log(porta.isActive);
+            if (!porta.isActive)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        canRewind = true;
+        if (collision.gameObject == Player.Instance.gameObject)
+            canRewind = true;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        canRewind = false;
+        if (collision.gameObject == Player.Instance.gameObject)
+            canRewind = false;
     }
 }

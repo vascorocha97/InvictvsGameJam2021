@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
@@ -59,9 +60,16 @@ public class Door : MonoBehaviour
 
     public void CloseDoor()
     {
+        StartCoroutine(WaifForScene());
+    }
+
+    IEnumerator WaifForScene()
+    {
         isActive = false;
         closedDoor.SetActive(true);
         openDoor.SetActive(false);
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 
