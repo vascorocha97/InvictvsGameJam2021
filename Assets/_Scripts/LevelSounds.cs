@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelSounds : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         AkSoundEngine.PostEvent("levelStart", this.gameObject);
     }
