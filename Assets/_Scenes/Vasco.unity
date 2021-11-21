@@ -503,9 +503,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 780893214}
   lines:
-  - This is just dummy text!
-  - Doesn't really mean anything...
-  - ...or does it?
+  - Oh, what a tasty looking chick...
+  - I'll make a great burger out of you someday!
   textSpeed: 0.03
 --- !u!1 &389578419
 GameObject:
