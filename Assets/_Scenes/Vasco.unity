@@ -3175,7 +3175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5205100378317840110, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -4.77
       objectReference: {fileID: 0}
     - target: {fileID: 5205100378317840110, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3227,6 +3227,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
+--- !u!1001 &5560211949109244355
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5560211947959546418, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_Name
+      value: Slot Machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5560211947959546422, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 814a1d117dbea7c478bd7f2792620390, type: 3}
 --- !u!1001 &7652026407355796972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3282,6 +3339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 7652026407492499105, guid: 81374531e68061540aefb074de970e74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1386101
+      objectReference: {fileID: 0}
     - target: {fileID: 7652026407492499106, guid: 81374531e68061540aefb074de970e74, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -3290,6 +3351,10 @@ PrefabInstance:
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 90549387}
+    - target: {fileID: 7652026408586205653, guid: 81374531e68061540aefb074de970e74, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.1386101
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81374531e68061540aefb074de970e74, type: 3}
 --- !u!1001 &8239691910325544479
