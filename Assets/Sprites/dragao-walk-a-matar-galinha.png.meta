@@ -1,45 +1,12 @@
 fileFormatVersion: 2
-guid: 9b9c3896d2a09e44b98872bf9c2ceb8b
+guid: 740d05b03f0cc0e48a508b88a1c5c2e0
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 7509379663474370018
-    second: dragao-walk-a-matar-galinha_0
-  - first:
-      213: -1615080645943442290
-    second: dragao-walk-a-matar-galinha_1
-  - first:
-      213: 3417867603347889742
-    second: dragao-walk-a-matar-galinha_2
-  - first:
-      213: 8897800933707058252
-    second: dragao-walk-a-matar-galinha_3
-  - first:
-      213: 6825485015399619184
-    second: dragao-walk-a-matar-galinha_4
-  - first:
-      213: -7515806472863194634
-    second: dragao-walk-a-matar-galinha_5
-  - first:
-      213: 8257722359973976800
-    second: dragao-walk-a-matar-galinha_6
-  - first:
-      213: 1739249094662767646
-    second: dragao-walk-a-matar-galinha_7
-  - first:
-      213: 2026814511888685601
-    second: dragao-walk-a-matar-galinha_8
-  - first:
-      213: 3632274031540343396
-    second: dragao-walk-a-matar-galinha_9
-  - first:
-      213: 2000262576352206945
-    second: dragao-walk-a-matar-galinha_10
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -65,16 +32,16 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
+    wrapU: 0
+    wrapV: 0
     wrapW: 0
-  nPOTScale: 0
+  nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 0
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -83,9 +50,9 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 0
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -98,34 +65,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 16384
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -134,242 +77,11 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_0
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 0
-        width: 232
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e5aeec740da63860800000000000000
-      internalID: 7509379663474370018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_1
-      rect:
-        serializedVersion: 2
-        x: 438
-        y: 0
-        width: 219
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e84cee6a5b41699e0800000000000000
-      internalID: -1615080645943442290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_2
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 0
-        width: 236
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4eddd20a74be6f20800000000000000
-      internalID: 3417867603347889742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_3
-      rect:
-        serializedVersion: 2
-        x: 1252
-        y: 0
-        width: 281
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4c8fbf7ec65b7b70800000000000000
-      internalID: 8897800933707058252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_4
-      rect:
-        serializedVersion: 2
-        x: 1700
-        y: 0
-        width: 230
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07a55a2657ef8be50800000000000000
-      internalID: 6825485015399619184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_5
-      rect:
-        serializedVersion: 2
-        x: 2103
-        y: 0
-        width: 268
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f1686855dd72b790800000000000000
-      internalID: -7515806472863194634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_6
-      rect:
-        serializedVersion: 2
-        x: 2545
-        y: 0
-        width: 230
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ea9c003cb2599270800000000000000
-      internalID: 8257722359973976800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_7
-      rect:
-        serializedVersion: 2
-        x: 2956
-        y: 0
-        width: 252
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e144b4f26dd032810800000000000000
-      internalID: 1739249094662767646
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_8
-      rect:
-        serializedVersion: 2
-        x: 3396
-        y: 0
-        width: 217
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12a5bbe5f01b02c10800000000000000
-      internalID: 2026814511888685601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_9
-      rect:
-        serializedVersion: 2
-        x: 3793
-        y: 0
-        width: 268
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46296d0bcfd686230800000000000000
-      internalID: 3632274031540343396
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dragao-walk-a-matar-galinha_10
-      rect:
-        serializedVersion: 2
-        x: 4226
-        y: 0
-        width: 247
-        height: 229
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1602bf0273c52cb10800000000000000
-      internalID: 2000262576352206945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1ef96c45afd4c204585c89330b0c2034
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
