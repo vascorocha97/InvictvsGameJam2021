@@ -22,6 +22,8 @@ public class robot : MonoBehaviour
 
     public bool walkingAnimationState;
 
+    public string pAnimationName;
+
 
     private Animator animator;
 
@@ -46,6 +48,7 @@ public class robot : MonoBehaviour
             // animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
 
             animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
+            pAnimationName = animationName[checkPointIndex];
             if (animationState[checkPointIndex] == "true")
             {
                 walkingAnimationState = true;
