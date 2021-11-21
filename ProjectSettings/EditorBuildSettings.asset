@@ -8,4 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Scenes/Splash.unity
+    guid: f48cf90718512984aa0efeee6167e53f
+  - enabled: 1
+    path: Assets/_Scenes/UI - Menu.unity
+    guid: 4be52dedc85e61d4aa163098f4f88760
+  - enabled: 1
+    path: Assets/_Scenes/Level 1.unity
+    guid: eac637064afa82a439e5d3bf113c0e13
+  - enabled: 1
+    path: Assets/_Scenes/Ending Scene.unity
+    guid: ca50618b2626d9e4e96b7b6f8e63accb
+  - enabled: 1
+    path: Assets/_Scenes/Vinheta.unity
+    guid: 20317f4e42f39b34d8c395124d3da5a5
   m_configObjects: {}
