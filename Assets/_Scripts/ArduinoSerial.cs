@@ -6,17 +6,22 @@ public class ArduinoSerial : MonoBehaviour
 {
     SerialPort sp;
     float next_time; int ii = 0;
+    private TimeBody timeBody;
+
 
     // Use this for initialization
     void Start()
+
     {
-        string the_com = "";
+        timeBody = gameObject.GetComponent<TimeBody>();
+
+        string the_com = "COM4";
         next_time = Time.time;
 
         foreach (string mysps in SerialPort.GetPortNames())
         {
             print(mysps);
-            if (mysps != "COM1") { the_com = mysps; break; }
+            if (mysps != "COM4") { the_com = mysps; break; }
         }
         sp = new SerialPort("\\\\.\\" + the_com, 9600);
         if (!sp.IsOpen)
@@ -40,12 +45,23 @@ public class ArduinoSerial : MonoBehaviour
             }
             if (sp.IsOpen)
             {
-                print("Writing " + ii);
-                sp.Write(ii.ToString());
+                if (timeBody._isRewinding == true)
+                {
+                    ii = 8;
+                    print("Writing " + ii);
+                    sp.Write(ii.ToString());
+                    next_time = Time.time + (float)2;
+                }
+                else
+                {
+                    // ii = 9;
+                }
+
+
             }
 
-            next_time = Time.time + (float)5;
-            if (++ii > 9) ii = 0;
+
+            // if (++ii > 9) ii = 0;
         }
     }
 }

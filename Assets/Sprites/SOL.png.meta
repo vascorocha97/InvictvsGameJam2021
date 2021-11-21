@@ -1,7 +1,13 @@
 fileFormatVersion: 2
-guid: 06438be70f26d2946ab685fba7227da8
+guid: 53af4de0312151e4197bf9e418f8ff96
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2019694992791186919
+    second: SOL_0
+  - first:
+      213: -2876715676028691842
+    second: SOL_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +47,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,7 +107,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SOL_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 671
+        height: 600
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912db08da1a98f3e0800000000000000
+      internalID: -2019694992791186919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SOL_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 0
+        width: 671
+        height: 600
+      alignment: 9
+      pivot: {x: 0.47640914, y: 0.49835113}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a138a855ad318d0800000000000000
+      internalID: -2876715676028691842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
