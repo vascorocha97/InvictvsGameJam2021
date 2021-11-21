@@ -10,6 +10,17 @@ public class Dialogue : MonoBehaviour
     public float textSpeed;
     private int index;
 
+    //Singleton Instantiation
+    private static Dialogue instance;
+    public static Dialogue Instance
+    {
+        get
+        {
+            if (instance == null) instance = GameObject.FindObjectOfType<Dialogue>();
+            return instance;
+        }
+    }
+
     void Start()
     {
         textComponent.text = string.Empty;
@@ -32,8 +43,9 @@ public class Dialogue : MonoBehaviour
         }
     }
 
-    void StartDialogue() 
+    public void StartDialogue() 
     {
+        textComponent.text = string.Empty;
         index = 0;
         StartCoroutine(TypeLine());
     }

@@ -94,6 +94,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="slotMachineStop" ID="{ECAD5F62-C426-4E40-8492-532CC4418FE0}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
