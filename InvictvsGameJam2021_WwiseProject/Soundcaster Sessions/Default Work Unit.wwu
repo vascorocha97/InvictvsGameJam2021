@@ -48,7 +48,7 @@
 						<CurrentStateRef Name="forwards" ID="{34E7249B-2B55-4B1C-B987-E29737BBD945}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="playing" ID="{FA08CE0E-A4C2-451D-A05C-28D405C0F7C2}"/>
+						<CurrentSwitchRef Name="ending" ID="{593C7AA1-B4F4-4DC0-8844-E42B7B91B257}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
