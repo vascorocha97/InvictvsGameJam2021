@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID DRAGONFIRE = 3094022532U;
         static const AkUniqueID DRAGONSTABSCHICKEN = 2914690528U;
         static const AkUniqueID DRAGONSTEP = 3080755390U;
+        static const AkUniqueID LASTSPLASH = 2162058040U;
         static const AkUniqueID LEVELSTART = 3372421815U;
         static const AkUniqueID LEVELSTOP = 1638678045U;
         static const AkUniqueID SLOTMACHINESTART = 1930973732U;

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="1804104143">
+		<SoundBank Id="782826392" Language="SFX" Hash="3387359882">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -148,6 +148,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2162058040" Name="lastSplash" ObjectPath="\Events\Default Work Unit\lastSplash" DurationType="OneShot" DurationMin="13.888888" DurationMax="13.888888">
+					<IncludedMemoryFiles>
+						<File Id="473100592" Language="SFX">
+							<ShortName>jingleFranguinhos.wav</ShortName>
+							<Path>SFX/jingleFranguinhos_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3372421815" Name="levelStart" ObjectPath="\Events\Default Work Unit\levelStart" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="392266127" Language="SFX">
@@ -190,7 +198,14 @@
 						<ActionSetSwitchEntry Id="3966194980" Name="ending" ObjectPath="\Switches\Default Work Unit\gameplay\ending"/>
 					</ActionSetSwitch>
 				</Event>
-				<Event Id="1930973732" Name="slotMachineStart" ObjectPath="\Events\Default Work Unit\slotMachineStart" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1930973732" Name="slotMachineStart" ObjectPath="\Events\Default Work Unit\slotMachineStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="4351825" Language="SFX">
+							<ShortName>slotMachine.wav</ShortName>
+							<Path>SFX/slotMachine_D0718E41.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3763804504" Name="slotMachineStop" ObjectPath="\Events\Default Work Unit\slotMachineStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<SwitchGroups>
@@ -208,7 +223,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1379415415">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1807388990">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

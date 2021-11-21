@@ -8,8 +8,6 @@ public class LevelSounds : MonoBehaviour
     void Start()
     {
         AkSoundEngine.PostEvent("levelStart", this.gameObject);
-
-
     }
 
     // Update is called once per frame
