@@ -78,10 +78,10 @@ public class TimeBody : MonoBehaviour
         // animation.enabled = false;
         CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
 
-        // Debug.Log(CurrentClipInfo[0].clip.name);
+        Debug.Log(CurrentClipInfo[0].clip.name);
         //string name = CurrentClipInfo[0].clip.name;
         //Debug.Log(name);
-        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState));
+        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState, robot.state));
 
         //Fetch the current Animation clip information for the base layer
 
@@ -102,6 +102,7 @@ public class TimeBody : MonoBehaviour
             transform.position = objState.position;
             transform.rotation = objState.rotation;
             robot.checkPointIndex = objState.checkPointIndex;
+            robot.state = objState.state;
             // animation.Rewind();
             animator.SetFloat("Direction", -1);
             animator.SetBool("isWalking", objState.isWalking);
@@ -130,6 +131,8 @@ public class TimeBody : MonoBehaviour
 
         public bool isWalking;
 
+        public int state;
+
         public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, string _animationName)
         {
 
@@ -147,7 +150,7 @@ public class TimeBody : MonoBehaviour
             this.checkPointIndex = _checkPointIndex;
         }
 
-        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, bool _isWalkingState)
+        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, bool _isWalkingState, int state)
         {
 
             this.position = _position;
