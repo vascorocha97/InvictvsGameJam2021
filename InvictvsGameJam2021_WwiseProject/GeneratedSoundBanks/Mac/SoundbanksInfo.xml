@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="782826392" Language="SFX" Hash="3807801833">
+		<SoundBank Id="782826392" Language="SFX" Hash="1804104143">
 			<ObjectPath>\SoundBanks\Default Work Unit\Default</ObjectPath>
 			<ShortName>Default</ShortName>
 			<Path>Default.bnk</Path>
@@ -84,7 +84,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.527767" DurationMax="1.957381">
+				<Event Id="3094022532" Name="dragonFire" ObjectPath="\Events\Default Work Unit\dragonFire" DurationType="OneShot" DurationMin="1.642156" DurationMax="1.690275">
 					<IncludedMemoryFiles>
 						<File Id="1055277156" Language="SFX">
 							<ShortName>dragonFire.wav</ShortName>
@@ -92,7 +92,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2914690528" Name="dragonStabsChicken" ObjectPath="\Events\Default Work Unit\dragonStabsChicken" DurationType="OneShot" DurationMin="0.602710" DurationMax="0.971474">
+				<Event Id="2914690528" Name="dragonStabsChicken" ObjectPath="\Events\Default Work Unit\dragonStabsChicken" DurationType="OneShot" DurationMin="0.602710" DurationMax="0.877060">
 					<IncludedMemoryFiles>
 						<File Id="259000358" Language="SFX">
 							<ShortName>Stabs\dragonStabslotMachine-04_02.wav</ShortName>
