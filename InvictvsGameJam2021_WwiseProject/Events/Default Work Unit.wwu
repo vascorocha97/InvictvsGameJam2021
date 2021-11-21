@@ -5,10 +5,20 @@
 			<ChildrenList>
 				<Event Name="levelStart" ID="{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}">
 					<ChildrenList>
+						<Action Name="" ID="{A61EF9A9-4D17-42BD-BC99-8F1EE7557F49}" ShortID="1032316405">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="playing" ID="{FA08CE0E-A4C2-451D-A05C-28D405C0F7C2}" WorkUnitID="{F0AFAA44-ADD8-44B3-9188-A7D385C44344}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{D9E53347-F795-40DA-9650-3D0D350B186E}" ShortID="586049488">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Level1" ID="{A4C205E1-1D97-431A-96F4-C4CFC9C2A240}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
+									<ObjectRef Name="Level" ID="{659D55CB-C48F-43CD-B80E-FD27634EFE1E}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -18,11 +28,11 @@
 					<ChildrenList>
 						<Action Name="" ID="{9645800F-A866-44A2-9074-2B741A8115FF}" ShortID="927076959">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="23"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Level1" ID="{A4C205E1-1D97-431A-96F4-C4CFC9C2A240}" WorkUnitID="{4DEAEDB2-9E7E-469E-B714-F3D64D8E028A}"/>
+									<ObjectRef Name="ending" ID="{593C7AA1-B4F4-4DC0-8844-E42B7B91B257}" WorkUnitID="{F0AFAA44-ADD8-44B3-9188-A7D385C44344}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -83,7 +93,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="slotMachineReverse" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}">
+				<Event Name="slotMachineStart" ID="{763A7CDB-77F7-43BF-8400-5A901B2222BB}">
 					<ChildrenList>
 						<Action Name="" ID="{2E4BB701-E42D-4E4C-88B8-37E5C606C078}" ShortID="267932362">
 							<ReferenceList>

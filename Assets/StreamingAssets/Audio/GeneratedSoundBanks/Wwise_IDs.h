@@ -20,7 +20,7 @@ namespace AK
         static const AkUniqueID DRAGONSTEP = 3080755390U;
         static const AkUniqueID LEVELSTART = 3372421815U;
         static const AkUniqueID LEVELSTOP = 1638678045U;
-        static const AkUniqueID SLOTMACHINEREVERSE = 205509026U;
+        static const AkUniqueID SLOTMACHINESTART = 1930973732U;
         static const AkUniqueID SLOTMACHINESTOP = 3763804504U;
     } // namespace EVENTS
 
@@ -40,10 +40,30 @@ namespace AK
 
     } // namespace STATES
 
+    namespace SWITCHES
+    {
+        namespace GAMEPLAY
+        {
+            static const AkUniqueID GROUP = 89505537U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID ENDING = 3966194980U;
+                static const AkUniqueID PLAYING = 1852808225U;
+            } // namespace SWITCH
+        } // namespace GAMEPLAY
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID TIMEOFDAY = 3729505769U;
     } // namespace GAME_PARAMETERS
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID ENDING = 3966194980U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

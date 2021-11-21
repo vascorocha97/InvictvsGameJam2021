@@ -618,7 +618,17 @@
 				</Sound>
 				<Sound Name="slotMachine" ID="{93273FDC-7F2E-4451-B837-CDCA521EE378}" ShortID="546187445">
 					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-16</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -665,7 +675,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-23</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
