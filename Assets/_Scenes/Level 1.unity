@@ -5053,7 +5053,6 @@ MonoBehaviour:
   openDoor: {fileID: 156788190}
   closedDoor: {fileID: 292391997}
   isActive: 0
-  _isRewinding: 0
 --- !u!114 &140439868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5061,7 +5060,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140439863}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc08232b26ad53d4a9900a5ad143e1c6, type: 3}
   m_Name: 
@@ -10633,6 +10632,8 @@ GameObject:
   m_Component:
   - component: {fileID: 734996030}
   - component: {fileID: 734996029}
+  - component: {fileID: 734996032}
+  - component: {fileID: 734996031}
   m_Layer: 0
   m_Name: Ceu(Background)
   m_TagString: Untagged
@@ -10705,6 +10706,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &734996031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734996028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b30c6994b3d64428ac7fd1172fb48d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isRewinding: 0
+--- !u!114 &734996032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734996028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9475fe033dd7ab4ca45c935f580e9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  positions:
+  - {x: 0, y: -6.67, z: 0}
+  - {x: 0, y: 9.8, z: 0}
+  stateLock: 0000000000000000
+  checkPointIndex: 0
+  walkingAnimationState: 0
+  pAnimationName: 
+  state: 0
 --- !u!1 &774492257
 GameObject:
   m_ObjectHideFlags: 0
@@ -10842,6 +10877,8 @@ GameObject:
   - component: {fileID: 803209311}
   - component: {fileID: 803209310}
   - component: {fileID: 803209309}
+  - component: {fileID: 803209312}
+  - component: {fileID: 803209313}
   m_Layer: 0
   m_Name: SOL_0
   m_TagString: Untagged
@@ -10907,7 +10944,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: -2019694992791186919, guid: 53af4de0312151e4197bf9e418f8ff96, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10927,12 +10964,46 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803209308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.47, y: 3.99, z: 0}
+  m_LocalPosition: {x: 3.88, y: 3.99, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &803209312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803209308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9475fe033dd7ab4ca45c935f580e9de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  positions:
+  - {x: 3.88, y: 3.99, z: 0}
+  - {x: 11.24, y: -1.38, z: 0}
+  stateLock: 0000000000000000
+  checkPointIndex: 0
+  walkingAnimationState: 0
+  pAnimationName: 
+  state: 0
+--- !u!114 &803209313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803209308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b30c6994b3d64428ac7fd1172fb48d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isRewinding: 0
 --- !u!1001 &1006584482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11821,7 +11892,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1914710063}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d8b7dc4f8e482045bbe35993fa9e652, type: 3}
+  m_Script: {fileID: 11500000, guid: cfe6a2c556c721b4ca6fd15c72dc8a13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _isRewinding: 0
@@ -11917,7 +11988,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096005682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6186795b2c4b747ac339a9146106a9, type: 3}
   m_Name: 
