@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,8 +9,15 @@ public class GameManager : MonoBehaviour
     public TimeState timeState = TimeState.Regular;
     public float rewindSpeed = 2f;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(this);
+    }
+
     void Update()
     {
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+            Time.timeScale = 1;
         HandleTimeStates();
     }
 

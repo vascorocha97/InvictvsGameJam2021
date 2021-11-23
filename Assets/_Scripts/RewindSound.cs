@@ -25,4 +25,11 @@ public class RewindSound : MonoBehaviour
 
         }
     }
+
+    private void OnDestroy()
+    {
+        Debug.Log("OnDestroy1");
+        AkSoundEngine.SetState("timeFlow", "");
+        AkSoundEngine.PostEvent("levelStop", this.gameObject);
+    }
 }

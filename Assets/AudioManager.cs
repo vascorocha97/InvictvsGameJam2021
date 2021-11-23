@@ -12,7 +12,7 @@ public class AudioManager : MonoBehaviour
         StartCoroutine(WaitForAudio());
     }
 
-    IEnumerator WaitForAudio() 
+    IEnumerator WaitForAudio()
     {
         yield return new WaitForSeconds(15f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

@@ -49,17 +49,18 @@ public class ArduinoSerial : MonoBehaviour
             {
                 if (firstTime == true)
                 {
-                    ii = 8;
-                    print("Writing " + ii);
+                    firstTime = false;
+                    ii = 7;
+                    //print("Writing " + ii);
                     sp.Write(ii.ToString());
                     next_time = Time.time + (float)2;
                 }
                 if (timeBody._isRewinding == true)
                 {
                     ii = 8;
-                    print("Writing " + ii);
+                    //print("Writing " + ii);
                     sp.Write(ii.ToString());
-                    next_time = Time.time + (float)2;
+                    next_time = Time.time + (float)40;
                 }
                 else
                 {

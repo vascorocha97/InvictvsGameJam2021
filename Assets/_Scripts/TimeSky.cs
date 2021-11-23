@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeBody2 : MonoBehaviour
+public class TimeSky : MonoBehaviour
 {
     // Start is called before the first frame update
     // public List<Vector3> _positions;
@@ -10,29 +10,21 @@ public class TimeBody2 : MonoBehaviour
 
     public List<ObjState> _state;
 
-    private robot robot;
+    private RobotSky robot;
 
     private Animation animation;
     private Animator animator;
 
     private AnimatorClipInfo[] CurrentClipInfo;
 
-    private Door porta;
     private string word;
-
-    public GameObject openDoor;
-    public GameObject closedDoor;
-
-    private TimeBody2 timeBody;
 
 
     void Start()
     {
         _state = new List<ObjState>();
         // May not work if we have more than one instance!
-
-        porta = gameObject.GetComponent<Door>();
-        timeBody = gameObject.GetComponent<TimeBody2>();
+        robot = gameObject.GetComponent<RobotSky>();
 
 
 
@@ -61,9 +53,8 @@ public class TimeBody2 : MonoBehaviour
 
     public void StopRewind()
     {
-
         _isRewinding = false;
-
+        animator.SetFloat("Direction", 1);
 
     }
 
@@ -81,8 +72,7 @@ public class TimeBody2 : MonoBehaviour
 
     void Record()
     {
-
-        _state.Insert(0, new ObjState(porta.isActive));
+        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex));
 
     }
 
@@ -93,19 +83,10 @@ public class TimeBody2 : MonoBehaviour
         {
             // transform.position = _positions[0];
             // _positions.RemoveAt(0);
-            // porta.OpenDoor();
             ObjState objState = _state[0];
-            if (objState.isWalking == true)
-            {
-                closedDoor.SetActive(false);
-                openDoor.SetActive(true);
-            }
-            else
-            {
-                closedDoor.SetActive(true);
-                openDoor.SetActive(false);
-            }
-
+            transform.position = objState.position;
+            transform.rotation = objState.rotation;
+            robot.checkPointIndex = objState.checkPointIndex;
 
             _state.RemoveAt(0);
 
@@ -116,8 +97,6 @@ public class TimeBody2 : MonoBehaviour
         }
 
     }
-
-
 
     public class ObjState
     {
@@ -141,13 +120,6 @@ public class TimeBody2 : MonoBehaviour
             this.checkPointIndex = _checkPointIndex;
             this.animationName = _animationName;
         }
-
-        public ObjState(bool _isActive)
-        {
-
-            this.isWalking = _isActive;
-        }
-
 
         public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex)
         {
