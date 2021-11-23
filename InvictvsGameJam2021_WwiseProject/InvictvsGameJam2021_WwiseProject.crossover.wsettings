@@ -4,6 +4,7 @@
 		<UserProjectSettings Name="" ID="{EC19AB1F-66E5-4921-A176-9C589A22272F}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\Traballo\Videoxogos\Invictvs 2 Pro Tools\AudioAssets\"/>
+				<Property Name="Event Action List\{2F84D739-5B18-4B32-8279-DAC86ADE96E5}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{427B2EDD-33A2-418D-9ECE-E8DE0D1EC107}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{57815426-FB81-4345-B2F1-11A86B31DCE9}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6819C242-B039-42E4-8E2B-C1D1DEBC53DC}\x64_Expand States" Type="string" Value=""/>
