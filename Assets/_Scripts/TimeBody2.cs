@@ -25,6 +25,8 @@ public class TimeBody2 : MonoBehaviour
 
     private TimeBody2 timeBody;
 
+    private BoxCollider2D doorCollider;
+
 
     void Start()
     {
@@ -33,6 +35,7 @@ public class TimeBody2 : MonoBehaviour
 
         porta = gameObject.GetComponent<Door>();
         timeBody = gameObject.GetComponent<TimeBody2>();
+        doorCollider = gameObject.GetComponent<BoxCollider2D>();
 
 
 
@@ -41,6 +44,8 @@ public class TimeBody2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(porta.isActive);
+
         if ((Input.GetButtonDown("Fire1")) && SlotMachine.Instance.canRewind)
         {
             StartRewind();
@@ -81,7 +86,7 @@ public class TimeBody2 : MonoBehaviour
 
     void Record()
     {
-
+        doorCollider.enabled = true;
         _state.Insert(0, new ObjState(porta.isActive));
 
     }
@@ -91,19 +96,16 @@ public class TimeBody2 : MonoBehaviour
         //animator.StartPlayback();
         if (_state.Count > 0)
         {
-            // transform.position = _positions[0];
-            // _positions.RemoveAt(0);
-            // porta.OpenDoor();
+            doorCollider.enabled = false;
             ObjState objState = _state[0];
             if (objState.isWalking == true)
             {
-                closedDoor.SetActive(false);
-                openDoor.SetActive(true);
+                porta.OpenDoor();
             }
             else
             {
-                closedDoor.SetActive(true);
-                openDoor.SetActive(false);
+                porta.CloseDoor();
+
             }
 
 

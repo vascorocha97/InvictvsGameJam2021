@@ -32,6 +32,7 @@ public class SlotMachine : MonoBehaviour
         if (canRewind && Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("Rewind");
+            AkSoundEngine.PostEvent("slotMachineStart", this.gameObject);
             // Debug.Log(porta.isActive);
             if (!porta.isActive)
             {

@@ -28,6 +28,7 @@ public class TimeSky : MonoBehaviour
 
 
 
+
     }
 
     // Update is called once per frame
@@ -54,7 +55,7 @@ public class TimeSky : MonoBehaviour
     public void StopRewind()
     {
         _isRewinding = false;
-        animator.SetFloat("Direction", 1);
+
 
     }
 
@@ -78,16 +79,12 @@ public class TimeSky : MonoBehaviour
 
     void Rewind()
     {
-        //animator.StartPlayback();
         if (_state.Count > 0)
         {
-            // transform.position = _positions[0];
-            // _positions.RemoveAt(0);
             ObjState objState = _state[0];
             transform.position = objState.position;
             transform.rotation = objState.rotation;
             robot.checkPointIndex = objState.checkPointIndex;
-
             _state.RemoveAt(0);
 
         }

@@ -5025,7 +5025,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 42.914864, y: -1.7983308}
+  m_Offset: {x: -3.2318869, y: -1.7983308}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5036,7 +5036,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 99.15279, y: 4.933337}
+  m_Size: {x: 6.859276, y: 4.933337}
   m_EdgeRadius: 0
 --- !u!114 &140439867
 MonoBehaviour:
@@ -10024,7 +10024,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 3d91dd7f492bb28458d2121b4c5ffea5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10327,7 +10327,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -3
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c8637d8f1c6701741bb9853a1b2147ad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11781,7 +11781,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11297655, y: -0.60873234}
+  m_Offset: {x: -0.11297655, y: -0.23200476}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11792,7 +11792,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3380127, y: 0.6151478}
+  m_Size: {x: 0.3380127, y: 0.92539334}
   m_EdgeRadius: 0
 --- !u!114 &1893298205
 MonoBehaviour:
@@ -12038,7 +12038,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096005682}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea6186795b2c4b747ac339a9146106a9, type: 3}
   m_Name: 
@@ -12208,8 +12208,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.1257416, y: 0}
-  m_Size: {x: 2.3, y: 2.46}
+  m_Offset: {x: 0.07034111, y: -0.33484507}
+  m_Size: {x: 1.7903099, y: 1.7903099}
   m_Direction: 0
 --- !u!61 &2096005693
 BoxCollider2D:

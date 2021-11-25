@@ -28,7 +28,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other.gameObject.name);
+        // Debug.Log(other.gameObject.name);
         bool didHitDragon = other.GetComponent<FollowRobot>() != null;
         if (isRewinding == false && didHitDragon)
         {
@@ -40,7 +40,8 @@ public class Door : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (isRewinding == true)
+        bool didHitDragon = other.GetComponent<FollowRobot>() != null;
+        if (isRewinding == true && didHitDragon)
         {
             CloseDoor();
         }
@@ -60,23 +61,26 @@ public class Door : MonoBehaviour
     }
     public void OpenDoor()
     {
-
-
-        isActive = true;
         closedDoor.SetActive(false);
         openDoor.SetActive(true);
+        isActive = true;
     }
 
     public void CloseDoor()
     {
+        isActive = false;
+        closedDoor.SetActive(true);
+        openDoor.SetActive(false);
+        // END DEMO
         StartCoroutine(WaifForScene());
+
+
     }
 
     IEnumerator WaifForScene()
     {
-        isActive = false;
-        closedDoor.SetActive(true);
-        openDoor.SetActive(false);
+        //isActive = false;
+
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

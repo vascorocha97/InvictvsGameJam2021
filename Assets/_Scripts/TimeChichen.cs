@@ -118,7 +118,7 @@ public class TimeChichen : MonoBehaviour
 
              **/
 
-            animator.SetBool("AtackBool", objState.isWalking);
+            //            animator.SetBool("AtackBool", objState.isWalking);
             // animator.SetBool(objState.animationName, objState.isWalking);
             //animator.SetBool("isWalking", objState.isWalking);
 
