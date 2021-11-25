@@ -35,7 +35,7 @@ public class RobotSky : MonoBehaviour
         //  StartCoroutine(MoveDragon());
         walkingAnimationState = false;
 
-        if (timeBody._isRewinding == false && checkPointIndex <= positions.Length)
+        if (timeBody._isRewinding == false && checkPointIndex < positions.Length)
         {
             transform.position = Vector3.MoveTowards(transform.position, positions[checkPointIndex], Time.deltaTime * speed);
 

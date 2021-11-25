@@ -37,8 +37,9 @@ public class robot : MonoBehaviour
         //  StartCoroutine(MoveDragon());
         walkingAnimationState = false;
 
-        if (isRewinding == false && checkPointIndex <= positions.Length)
+        if (isRewinding == false && checkPointIndex < positions.Length)
         {
+
             transform.position = Vector3.MoveTowards(transform.position, positions[checkPointIndex], Time.deltaTime * speed);
 
             animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
