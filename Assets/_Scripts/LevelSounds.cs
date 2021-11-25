@@ -10,9 +10,11 @@ public class LevelSounds : MonoBehaviour
         AkSoundEngine.PostEvent("levelStart", this.gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+
+    private void OnDestroy()
     {
+        // AkSoundEngine.PostEvent("levelStop", this.gameObject);
+        AkSoundEngine.StopAll();
 
     }
 }
