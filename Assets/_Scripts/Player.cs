@@ -189,7 +189,7 @@ public class Player : PhysicsObject
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log(other.collider.gameObject.name);
+        //Debug.Log(other.collider.gameObject.name);
 
         bool didHitDragon = other.collider.GetComponent<DraggonSound>() != null;
 
