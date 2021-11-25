@@ -10768,9 +10768,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   positions:
-  - {x: 0, y: -6.67, z: 0}
   - {x: 0, y: 9.8, z: 0}
-  stateLock: 0000000000000000
+  stateLock: 00000000
   checkPointIndex: 0
   walkingAnimationState: 0
   pAnimationName: 
@@ -11019,9 +11018,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.2
   positions:
-  - {x: -2.44, y: 0.26, z: 0}
   - {x: 3.16, y: -4.05, z: 0}
-  stateLock: 0000000000000000
+  stateLock: 00000000
   checkPointIndex: 0
   walkingAnimationState: 0
   pAnimationName: 
