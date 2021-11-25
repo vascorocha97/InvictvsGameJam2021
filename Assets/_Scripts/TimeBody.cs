@@ -17,6 +17,8 @@ public class TimeBody : MonoBehaviour
 
     private AnimatorClipInfo[] CurrentClipInfo;
 
+    private CapsuleCollider2D collider;
+
     private string word;
 
 
@@ -27,6 +29,7 @@ public class TimeBody : MonoBehaviour
         robot = gameObject.GetComponent<robot>();
         animation = gameObject.GetComponent<Animation>();
         animator = gameObject.GetComponent<Animator>();
+        collider = gameObject.GetComponent<CapsuleCollider2D>();
 
 
     }
@@ -73,12 +76,14 @@ public class TimeBody : MonoBehaviour
 
     void Record()
     {
+        collider.enabled = true;
+
         // may require kinematic replay!!
         // Debug.Log(animation.sprite);
         // animation.enabled = false;
         CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
 
-        Debug.Log(CurrentClipInfo[0].clip.name);
+        //Debug.Log(CurrentClipInfo[0].clip.name);
         //string name = CurrentClipInfo[0].clip.name;
         //Debug.Log(name);
         _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState, robot.state, robot.pAnimationName));
@@ -98,6 +103,7 @@ public class TimeBody : MonoBehaviour
         {
             // transform.position = _positions[0];
             // _positions.RemoveAt(0);
+            collider.enabled = false;
             ObjState objState = _state[0];
             transform.position = objState.position;
             transform.rotation = objState.rotation;
@@ -105,18 +111,6 @@ public class TimeBody : MonoBehaviour
             robot.state = objState.state;
             // animation.Rewind();
             animator.SetFloat("Direction", -1);
-            /** if (objState.isWalking == false)
-             {
-                 animator.SetBool("AtackBool", true);
-
-             }
-             else
-             {
-                 animator.SetBool("AtackBool", false);
-             }~
-
-
-             **/
 
             animator.SetBool("AtackBool", objState.isWalking);
             // animator.SetBool(objState.animationName, objState.isWalking);

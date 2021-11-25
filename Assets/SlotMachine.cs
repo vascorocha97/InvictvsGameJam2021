@@ -32,7 +32,7 @@ public class SlotMachine : MonoBehaviour
         if (canRewind && Input.GetButtonDown("Fire1"))
         {
             anim.SetTrigger("Rewind");
-            Debug.Log(porta.isActive);
+            // Debug.Log(porta.isActive);
             if (!porta.isActive)
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

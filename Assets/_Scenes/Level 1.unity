@@ -11093,6 +11093,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81374531e68061540aefb074de970e74, type: 3}
+--- !u!1 &1020301142
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1020301143}
+  m_Layer: 0
+  m_Name: Dragon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1020301143
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020301142}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.185941, y: -0.8118413, z: -4.800408}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1893298203}
+  - {fileID: 2096005690}
+  m_Father: {fileID: 0}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1214814555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11114,7 +11146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 160173980379800825, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 160173980379800825, guid: 8591fb563df15ee4695b5c938678fc1d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11212,7 +11244,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311821344
 GameObject:
@@ -11604,6 +11636,22 @@ PrefabInstance:
       propertyPath: gravityModifier
       value: 5.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5205100378317840108, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205100378317840108, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205100378317840108, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
+      propertyPath: m_SleepingMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5205100378317840108, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5205100378317840109, guid: 25b2f22f8fc2e9e4aa7120d5559e5c48, type: 3}
       propertyPath: m_Name
       value: Player
@@ -11714,11 +11762,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893298202}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.97, y: -2.24, z: 0}
+  m_LocalPosition: {x: -3.7840588, y: -1.4281588, z: 4.800408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_Father: {fileID: 1020301143}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1893298204
 BoxCollider2D:
@@ -11733,7 +11781,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.025691032, y: -0.30828536}
+  m_Offset: {x: -0.11297655, y: -0.60873234}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -11744,7 +11792,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.23314, y: 1.7707131}
+  m_Size: {x: 0.3380127, y: 0.6151478}
   m_EdgeRadius: 0
 --- !u!114 &1893298205
 MonoBehaviour:
@@ -11774,12 +11822,12 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &1914710063
 GameObject:
   m_ObjectHideFlags: 0
@@ -11881,7 +11929,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1914710067
 MonoBehaviour:
@@ -11967,6 +12015,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2096005690}
+  - component: {fileID: 2096005693}
   - component: {fileID: 2096005689}
   - component: {fileID: 2096005688}
   - component: {fileID: 2096005687}
@@ -11974,7 +12023,8 @@ GameObject:
   - component: {fileID: 2096005685}
   - component: {fileID: 2096005684}
   - component: {fileID: 2096005683}
-  m_Layer: 6
+  - component: {fileID: 2096005691}
+  m_Layer: 0
   m_Name: dragao-robo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12138,10 +12188,52 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2096005682}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.97, y: -2.24, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -3.7840588, y: -1.4281588, z: 4.800408}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_Father: {fileID: 1020301143}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &2096005691
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096005682}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1257416, y: 0}
+  m_Size: {x: 2.3, y: 2.46}
+  m_Direction: 0
+--- !u!61 &2096005693
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096005682}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.1257416, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.44532973, y: 0.5}
+    oldSize: {x: 2.3, y: 2.46}
+    newSize: {x: 2.14, y: 2.4644337}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3, y: 2.46}
+  m_EdgeRadius: 0

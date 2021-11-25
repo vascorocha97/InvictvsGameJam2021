@@ -24,9 +24,13 @@ public class Door : MonoBehaviour
 
     private bool isRewinding;
 
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (isRewinding == false)
+        Debug.Log(other.gameObject.name);
+        bool didHitDragon = other.GetComponent<FollowRobot>() != null;
+        if (isRewinding == false && didHitDragon)
         {
             OpenDoor();
 

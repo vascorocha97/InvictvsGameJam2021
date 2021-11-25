@@ -78,7 +78,7 @@ public class TimeChichen : MonoBehaviour
         // animation.enabled = false;
         CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
 
-        Debug.Log(CurrentClipInfo[0].clip.name);
+        // Debug.Log(CurrentClipInfo[0].clip.name);
         //string name = CurrentClipInfo[0].clip.name;
         //Debug.Log(name);
         _state.Insert(0, new ObjState(transform.position, transform.rotation));

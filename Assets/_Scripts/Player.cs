@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : PhysicsObject
 {
@@ -85,10 +86,10 @@ public class Player : PhysicsObject
             transform.localScale = new Vector2(1, 1);
         }
     }
-    public void Freeze(bool isFrozen) 
+    public void Freeze(bool isFrozen)
     {
         canMove = isFrozen;
-    }    
+    }
 
     //Jump
     private void HandleJumpInput()
@@ -184,5 +185,19 @@ public class Player : PhysicsObject
     public void PlayFootsteps()
     {
         AkSoundEngine.PostEvent("cckStep", this.gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log(other.collider.gameObject.name);
+
+        bool didHitDragon = other.collider.GetComponent<DraggonSound>() != null;
+
+        if (didHitDragon)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            SceneManager.LoadScene(currentSceneName);
+        }
+
     }
 }
