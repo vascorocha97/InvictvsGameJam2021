@@ -33,11 +33,12 @@ public class SlotMachine : MonoBehaviour
         {
             anim.SetTrigger("Rewind");
             AkSoundEngine.PostEvent("slotMachineStart", this.gameObject);
-            // Debug.Log(porta.isActive);
-            if (!porta.isActive)
-            {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
+            //Debug.Log("click");
+            /* if (!porta.isActive)
+             {
+                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+             }
+             */
         }
     }
 
