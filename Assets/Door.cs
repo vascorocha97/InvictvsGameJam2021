@@ -9,20 +9,10 @@ public class Door : MonoBehaviour
     public GameObject closedDoor;
 
     public bool isActive = false;
-    private TimeBody2 timeBody;
-
-
-    private robot robot;
-
-    private Animation animation;
-    private Animator animator;
-
-    private AnimatorClipInfo[] CurrentClipInfo;
 
     private Door porta;
-    private string word;
 
-    private bool isRewinding;
+    public bool isRewinding;
 
 
 
@@ -47,18 +37,7 @@ public class Door : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        timeBody = gameObject.GetComponent<TimeBody2>();
 
-
-    }
-
-    private void Update()
-    {
-        isRewinding = timeBody._isRewinding;
-
-    }
     public void OpenDoor()
     {
         closedDoor.SetActive(false);
@@ -79,8 +58,6 @@ public class Door : MonoBehaviour
 
     IEnumerator WaifForScene()
     {
-        //isActive = false;
-
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }

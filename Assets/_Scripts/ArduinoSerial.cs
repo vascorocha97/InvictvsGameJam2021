@@ -6,7 +6,7 @@ public class ArduinoSerial : MonoBehaviour
 {
     SerialPort sp;
     float next_time; int ii = 0;
-    private TimeBody timeBody;
+    private TimeRobot timeBody;
 
     private bool firstTime = false;
 
@@ -15,7 +15,7 @@ public class ArduinoSerial : MonoBehaviour
     void Start()
 
     {
-        timeBody = gameObject.GetComponent<TimeBody>();
+        timeBody = gameObject.GetComponent<TimeRobot>();
 
         string the_com = "COM4";
         next_time = Time.time;

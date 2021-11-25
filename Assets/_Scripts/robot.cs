@@ -12,26 +12,22 @@ public class robot : MonoBehaviour
 
     [SerializeField] private List<string> animationState;
 
-    [SerializeField] private List<int> sleepTime;
+    // [SerializeField] private List<int> sleepTime;
 
     [SerializeField] private List<int> stateLock;
 
-
-    private TimeBody timeBody;
     public int checkPointIndex = 0;
 
     public bool walkingAnimationState;
-
-    public string pAnimationName;
-
 
     private Animator animator;
 
     public int state = 0;
 
+    public bool isRewinding = false;
+
     void Start()
     {
-        timeBody = gameObject.GetComponent<TimeBody>();
         animator = gameObject.GetComponent<Animator>();
     }
 
@@ -41,14 +37,12 @@ public class robot : MonoBehaviour
         //  StartCoroutine(MoveDragon());
         walkingAnimationState = false;
 
-        if (timeBody._isRewinding == false && checkPointIndex <= positions.Length)
+        if (isRewinding == false && checkPointIndex <= positions.Length)
         {
             transform.position = Vector3.MoveTowards(transform.position, positions[checkPointIndex], Time.deltaTime * speed);
-            // if (animationState[checkPointIndex] == "true") { walkingAnimationState = true; }
-            // animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
 
             animator.SetBool(animationName[checkPointIndex], walkingAnimationState);
-            // pAnimationName = animationName[checkPointIndex];
+
             if (animationState[checkPointIndex] == "true")
             {
                 walkingAnimationState = true;
@@ -62,10 +56,6 @@ public class robot : MonoBehaviour
                 //   if (checkPointIndex == positions.Length - 1)
                 //{
                 //  checkPointIndex = 0;
-
-
-
-
                 //}
                 // else
                 //{

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimeBody2 : MonoBehaviour
+public class TimeRobot : MonoBehaviour
 {
     // Start is called before the first frame update
     // public List<Vector3> _positions;
@@ -17,26 +17,19 @@ public class TimeBody2 : MonoBehaviour
 
     private AnimatorClipInfo[] CurrentClipInfo;
 
-    private Door porta;
+    private CapsuleCollider2D collider;
+
     private string word;
-
-    public GameObject openDoor;
-    public GameObject closedDoor;
-
-    private TimeBody2 timeBody;
-
-    private BoxCollider2D doorCollider;
 
 
     void Start()
     {
         _state = new List<ObjState>();
         // May not work if we have more than one instance!
-
-        porta = gameObject.GetComponent<Door>();
-        timeBody = gameObject.GetComponent<TimeBody2>();
-        doorCollider = gameObject.GetComponent<BoxCollider2D>();
-
+        robot = gameObject.GetComponent<robot>();
+        animation = gameObject.GetComponent<Animation>();
+        animator = gameObject.GetComponent<Animator>();
+        collider = gameObject.GetComponent<CapsuleCollider2D>();
 
 
     }
@@ -44,9 +37,8 @@ public class TimeBody2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(porta.isActive);
-
         if ((Input.GetButtonDown("Fire1")) && SlotMachine.Instance.canRewind)
+        // if ((Input.GetButtonDown("Fire1")))
         {
             StartRewind();
         }
@@ -60,15 +52,16 @@ public class TimeBody2 : MonoBehaviour
     public void StartRewind()
     {
         _isRewinding = true;
+        robot.isRewinding = true;
 
 
     }
 
     public void StopRewind()
     {
-
         _isRewinding = false;
-
+        robot.isRewinding = false;
+        animator.SetFloat("Direction", 1);
 
     }
 
@@ -86,31 +79,30 @@ public class TimeBody2 : MonoBehaviour
 
     void Record()
     {
-        doorCollider.enabled = true;
-        _state.Insert(0, new ObjState(porta.isActive));
+        collider.enabled = true;
+
+        // may require kinematic replay!!
+        CurrentClipInfo = animator.GetCurrentAnimatorClipInfo(0);
+        //Debug.Log(CurrentClipInfo[0].clip.name);
+        //string name = CurrentClipInfo[0].clip.name;
+        _state.Insert(0, new ObjState(transform.position, transform.rotation, robot.checkPointIndex, robot.walkingAnimationState, robot.state));
 
     }
 
     void Rewind()
     {
-        //animator.StartPlayback();
+
         if (_state.Count > 0)
         {
-            doorCollider.enabled = false;
+            collider.enabled = false;
             ObjState objState = _state[0];
-            if (objState.isWalking == true)
-            {
-                porta.OpenDoor();
-            }
-            else
-            {
-                porta.CloseDoor();
-
-            }
-
-
+            transform.position = objState.position;
+            transform.rotation = objState.rotation;
+            robot.checkPointIndex = objState.checkPointIndex;
+            robot.state = objState.state;
+            animator.SetFloat("Direction", -1);
+            animator.SetBool("AtackBool", objState.isWalking);
             _state.RemoveAt(0);
-
         }
         else
         {
@@ -118,8 +110,6 @@ public class TimeBody2 : MonoBehaviour
         }
 
     }
-
-
 
     public class ObjState
     {
@@ -144,13 +134,6 @@ public class TimeBody2 : MonoBehaviour
             this.animationName = _animationName;
         }
 
-        public ObjState(bool _isActive)
-        {
-
-            this.isWalking = _isActive;
-        }
-
-
         public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex)
         {
 
@@ -159,7 +142,7 @@ public class TimeBody2 : MonoBehaviour
             this.checkPointIndex = _checkPointIndex;
         }
 
-        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, bool _isWalkingState, int state, string _animationName)
+        public ObjState(Vector3 _position, Quaternion _rotation, int _checkPointIndex, bool _isWalkingState, int state)
         {
 
             this.position = _position;

@@ -6,12 +6,12 @@ public class DraggonSound : MonoBehaviour
 {
 
     // Start is called before the first frame update
-    private TimeBody timeBody;
+    private TimeRobot timeBody;
     private robot robot;
 
     void Start()
     {
-        timeBody = gameObject.GetComponent<TimeBody>();
+        timeBody = gameObject.GetComponent<TimeRobot>();
         robot = gameObject.GetComponent<robot>();
     }
 
