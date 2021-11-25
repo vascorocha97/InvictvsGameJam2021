@@ -41,6 +41,16 @@ public class DraggonSound : MonoBehaviour
 
     }
 
+    void PlayKillChicken()
+    {
+        if (timeBody._isRewinding == false)
+        {
+            AkSoundEngine.PostEvent("dragonStabsChicken", this.gameObject);
+
+        }
+
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         //Debug.Log(other.collider.gameObject.name);

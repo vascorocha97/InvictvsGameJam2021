@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 39205518}
   - component: {fileID: 39205517}
   - component: {fileID: 39205516}
+  - component: {fileID: 39205519}
   m_Layer: 0
   m_Name: Particle System (1)
   m_TagString: Untagged
@@ -4927,6 +4928,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &39205519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39205515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c055058982aca40a977102a97894b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isRewinding: 0
+  speedModifier: 0.2
 --- !u!1 &140439863
 GameObject:
   m_ObjectHideFlags: 0
@@ -5080,6 +5095,7 @@ GameObject:
   - component: {fileID: 150584864}
   - component: {fileID: 150584863}
   - component: {fileID: 150584862}
+  - component: {fileID: 150584865}
   m_Layer: 0
   m_Name: Particle System
   m_TagString: Untagged
@@ -9873,6 +9889,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!114 &150584865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150584861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25c055058982aca40a977102a97894b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _isRewinding: 0
+  speedModifier: 0.2
 --- !u!1 &152311866
 GameObject:
   m_ObjectHideFlags: 0
@@ -10969,7 +10999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803209308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.88, y: 3.99, z: 0}
+  m_LocalPosition: {x: -2.44, y: 0.26, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -10987,10 +11017,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a9475fe033dd7ab4ca45c935f580e9de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 0.2
   positions:
-  - {x: 3.88, y: 3.99, z: 0}
-  - {x: 11.24, y: -1.38, z: 0}
+  - {x: -2.44, y: 0.26, z: 0}
+  - {x: 3.16, y: -4.05, z: 0}
   stateLock: 0000000000000000
   checkPointIndex: 0
   walkingAnimationState: 0
@@ -12081,7 +12111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2096005682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d8b7dc4f8e482045bbe35993fa9e652, type: 3}
+  m_Script: {fileID: 11500000, guid: f0959c37ed814c44a859fdb5ab318025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _isRewinding: 0
@@ -12110,12 +12140,11 @@ MonoBehaviour:
   - false
   - true
   - false
-  sleepTime: 000000000000000000000000
   stateLock: 000000000100000001000000
   checkPointIndex: 0
   walkingAnimationState: 0
-  pAnimationName: 
   state: 0
+  isRewinding: 0
 --- !u!95 &2096005688
 Animator:
   serializedVersion: 3
